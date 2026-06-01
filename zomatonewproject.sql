@@ -283,8 +283,7 @@ According to the project prompt: "Segment customers into 'Gold' or 'Silver' grou
 IF a customer's avg spending exceed the aov label them as gold."
 
 Because the business requirement wants to segment the actual human customers rather than individual transactions, 
-your 2nd query structure is the logically correct approach. Your second query accurately identifies who your high-value users are as whole individuals. 
-All you need to do is apply the SUM(totalorders) fix to that second query, and your revenue, customer segmentation, and order tracking will be completely bulletproof!
+2nd query structure is the logically correct approach.My second query accurately identifies who my high-value users are as whole individuals. 
 */
 
 
