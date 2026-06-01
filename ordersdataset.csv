@@ -1,0 +1,1001 @@
+order_id,customer_id,restaurant_id,order_item,order_date,order_time,order_status,total_amount
+O1,C1,R1,Yucca,6/22/2025,4:45:00 PM,Not fulfilled,44.4
+O2,C2,R2,Sandwich Wrap,4/5/2026,6:43:00 AM,Not fulfilled,27
+O3,C3,R3,Dikon,4/29/2026,11:56:00 AM,completed,21.4
+O4,C4,R4,Crab Brie In Phyllo,5/25/2026,6:43:00 PM,completed,22.7
+O5,C5,R5,Crab Brie In Phyllo,10/31/2025,12:37:00 PM,Not fulfilled,41.8
+O6,C6,R6,Crab Brie In Phyllo,12/17/2025,9:32:00 PM,Not fulfilled,23.8
+O7,C7,R7,Crab Brie In Phyllo,1/17/2026,10:43:00 AM,Not fulfilled,8.6
+O8,C8,R8,Crab Brie In Phyllo,11/25/2025,7:44:00 AM,Not fulfilled,39.7
+O9,C9,R9,Crab Brie In Phyllo,7/2/2025,1:00:00 AM,completed,21
+O10,C10,R10,Crab Brie In Phyllo,6/9/2025,7:20:00 AM,Not fulfilled,15.6
+O11,C11,R11,Crab Brie In Phyllo,8/24/2025,12:23:00 PM,Not fulfilled,47.1
+O12,C12,R12,Crab Brie In Phyllo,7/19/2025,3:25:00 AM,completed,40.2
+O13,C13,R13,Crab Brie In Phyllo,9/27/2025,5:39:00 PM,Not fulfilled,26.1
+O14,C14,R14,Crab Brie In Phyllo,10/4/2025,7:12:00 PM,completed,22.7
+O15,C15,R15,Crab Brie In Phyllo,6/9/2025,3:52:00 AM,completed,49.8
+O16,C16,R16,Crab Brie In Phyllo,4/16/2026,11:28:00 AM,completed,20.8
+O17,C17,R17,Crab Brie In Phyllo,9/24/2025,6:04:00 AM,Not fulfilled,32
+O18,C18,R18,Crab Brie In Phyllo,6/13/2025,6:31:00 PM,Not fulfilled,18.6
+O19,C19,R19,Crab Brie In Phyllo,2/26/2026,7:04:00 AM,Not fulfilled,31.3
+O20,C20,R20,Sandwich Wrap,1/22/2026,9:27:00 AM,completed,49.6
+O21,C1,R21,Sandwich Wrap,3/4/2026,12:14:00 AM,Not fulfilled,29.5
+O22,C2,R22,Sandwich Wrap,9/16/2025,12:36:00 AM,Not fulfilled,35.5
+O23,C3,R23,Sandwich Wrap,12/26/2025,1:05:00 PM,completed,42.3
+O24,C4,R24,Sandwich Wrap,3/28/2026,3:14:00 AM,completed,45.1
+O25,C5,R25,Dikon,6/17/2025,7:47:00 AM,Not fulfilled,25.3
+O26,C6,R26,Sandwich Wrap,4/7/2026,9:00:00 PM,completed,49.5
+O27,C7,R27,Sandwich Wrap,12/2/2025,3:32:00 PM,completed,44.6
+O28,C8,R28,Sandwich Wrap,10/22/2025,12:30:00 AM,Not fulfilled,25.5
+O29,C9,R1,Sandwich Wrap,7/14/2025,3:34:00 PM,Not fulfilled,7.4
+O30,C10,R2,Sandwich Wrap,4/12/2026,1:17:00 PM,completed,33.1
+O31,C11,R3,Sandwich Wrap,11/24/2025,11:31:00 AM,completed,47.9
+O32,C12,R4,Sandwich Wrap,10/11/2025,9:32:00 PM,Not fulfilled,30.4
+O33,C13,R5,Sandwich Wrap,2/10/2026,10:58:00 AM,Not fulfilled,10.5
+O34,C14,R6,Sandwich Wrap,5/27/2026,2:04:00 AM,Not fulfilled,49.6
+O35,C15,R7,Sandwich Wrap,12/1/2025,6:05:00 PM,completed,6.6
+O36,C16,R8,Crab Brie In Phyllo,9/16/2025,5:49:00 AM,completed,43.7
+O37,C17,R9,Crab Brie In Phyllo,5/12/2026,11:31:00 PM,Not fulfilled,46
+O38,C18,R10,Crab Brie In Phyllo,12/10/2025,1:24:00 AM,Not fulfilled,27.7
+O39,C19,R11,Crab Brie In Phyllo,9/9/2025,6:35:00 PM,Not fulfilled,20.7
+O40,C20,R12,Crab Brie In Phyllo,2/18/2026,9:59:00 AM,completed,45.6
+O41,C5,R13,Crab Brie In Phyllo,1/26/2026,8:56:00 PM,Not fulfilled,8.4
+O42,C6,R14,Crab Brie In Phyllo,8/20/2025,8:14:00 AM,Not fulfilled,34.2
+O43,C7,R15,Crab Brie In Phyllo,6/24/2025,2:03:00 PM,completed,5.3
+O44,C8,R16,Crab Brie In Phyllo,1/15/2026,3:40:00 AM,Not fulfilled,17.7
+O45,C9,R17,Crab Brie In Phyllo,4/15/2026,10:15:00 AM,Not fulfilled,19.6
+O46,C10,R18,Crab Brie In Phyllo,12/21/2025,8:10:00 AM,completed,41.1
+O47,C11,R19,Crab Brie In Phyllo,1/7/2026,10:45:00 AM,completed,7.1
+O48,C12,R20,Crab Brie In Phyllo,11/27/2025,2:12:00 AM,completed,34
+O49,C13,R3,Crab Brie In Phyllo,3/31/2026,6:46:00 PM,Not fulfilled,40
+O50,C14,R4,Crab Brie In Phyllo,9/13/2025,11:25:00 AM,Not fulfilled,12.5
+O51,C15,R5,Sandwich Wrap,4/2/2026,7:38:00 AM,completed,29.8
+O52,C16,R6,Sandwich Wrap,4/10/2026,3:22:00 PM,completed,48.1
+O53,C17,R7,Sandwich Wrap,4/17/2026,1:19:00 AM,completed,18.4
+O54,C18,R8,Sandwich Wrap,1/27/2026,11:32:00 PM,completed,14.9
+O55,C19,R9,Sandwich Wrap,4/23/2026,2:30:00 AM,Not fulfilled,33.8
+O56,C20,R10,Sandwich Wrap,12/2/2025,9:46:00 PM,completed,30.7
+O57,C1,R11,Sandwich Wrap,12/23/2025,6:18:00 AM,Not fulfilled,20.1
+O58,C2,R12,Sandwich Wrap,12/25/2025,8:14:00 PM,completed,45.4
+O59,C3,R13,Sandwich Wrap,4/21/2026,12:55:00 AM,completed,25.9
+O60,C4,R14,Sandwich Wrap,1/22/2026,2:33:00 PM,completed,28.9
+O61,C5,R15,Sandwich Wrap,6/28/2025,8:43:00 PM,completed,42.5
+O62,C5,R16,Crab Brie In Phyllo,10/10/2025,1:21:00 PM,Not fulfilled,5.1
+O63,C6,R17,Crab Brie In Phyllo,6/13/2025,11:44:00 AM,Not fulfilled,13.1
+O64,C7,R12,Crab Brie In Phyllo,12/14/2025,6:14:00 AM,Not fulfilled,15.7
+O65,C8,R13,Sandwich Wrap,12/13/2025,8:15:00 PM,completed,44.6
+O66,C9,R14,Sandwich Wrap,9/9/2025,3:14:00 AM,completed,49
+O67,C10,R15,Sandwich Wrap,4/23/2026,9:42:00 AM,completed,24.5
+O68,C11,R16,Sandwich Wrap,6/26/2025,10:08:00 AM,completed,23.6
+O69,C12,R17,Sandwich Wrap,10/11/2025,8:05:00 PM,Not fulfilled,39
+O70,C13,R12,Sandwich Wrap,1/15/2026,11:20:00 PM,completed,40.4
+O71,C14,R13,Sandwich Wrap,12/7/2025,3:01:00 PM,Not fulfilled,32.3
+O72,C15,R14,Sandwich Wrap,4/19/2026,5:16:00 PM,completed,33.1
+O73,C16,R15,Sandwich Wrap,1/17/2026,7:54:00 AM,completed,31.4
+O74,C17,R16,Sandwich Wrap,8/22/2025,1:58:00 AM,Not fulfilled,16.2
+O75,C18,R17,Sandwich Wrap,5/30/2026,10:51:00 PM,completed,41
+O76,C19,R14,Sandwich Wrap,1/11/2026,1:47:00 PM,Not fulfilled,45.5
+O77,C20,R15,Sandwich Wrap,8/18/2025,11:23:00 AM,Not fulfilled,42.9
+O78,C5,R16,Lettuce Romaine Chopped,6/14/2025,8:05:00 PM,Not fulfilled,28.9
+O79,C6,R17,Lettuce Romaine Chopped,7/18/2025,6:08:00 PM,Not fulfilled,41.8
+O80,C7,R12,Lettuce Romaine Chopped,7/7/2025,1:30:00 PM,completed,6.9
+O81,C8,R13,Lettuce Romaine Chopped,6/27/2025,12:59:00 PM,completed,31.3
+O82,C9,R14,Lettuce Romaine Chopped,1/20/2026,3:02:00 AM,completed,23.4
+O83,C10,R15,Lettuce Romaine Chopped,12/18/2025,6:42:00 PM,completed,40.1
+O84,C11,R16,Lettuce Romaine Chopped,4/17/2026,7:05:00 PM,completed,9.4
+O85,C12,R17,Lettuce Romaine Chopped,9/7/2025,3:04:00 PM,completed,43.8
+O86,C13,R12,Lettuce Romaine Chopped,2/11/2026,8:56:00 PM,Not fulfilled,28.2
+O87,C14,R13,Lettuce Romaine Chopped,3/19/2026,12:32:00 AM,completed,14.2
+O88,C15,R14,Lettuce Romaine Chopped,3/16/2026,1:37:00 AM,Not fulfilled,25.5
+O89,C16,R15,Lettuce Romaine Chopped,3/20/2026,8:35:00 AM,Not fulfilled,33.8
+O90,C17,R16,Lettuce Romaine Chopped,5/14/2026,12:54:00 AM,Not fulfilled,48.6
+O91,C18,R17,Sandwich Wrap,8/7/2025,8:17:00 AM,completed,46.6
+O92,C19,R18,Sandwich Wrap,3/10/2026,3:16:00 PM,Not fulfilled,11.3
+O93,C20,R19,Sandwich Wrap,6/4/2025,6:22:00 AM,Not fulfilled,21.3
+O94,C1,R20,Sandwich Wrap,6/21/2025,12:36:00 PM,completed,44.1
+O95,C2,R21,Sandwich Wrap,3/30/2026,5:09:00 PM,completed,24.7
+O96,C3,R22,Sandwich Wrap,6/28/2025,2:44:00 AM,Not fulfilled,14.8
+O97,C4,R23,Sandwich Wrap,8/4/2025,4:06:00 PM,Not fulfilled,48.6
+O98,C5,R24,Sandwich Wrap,3/10/2026,5:32:00 PM,completed,19.6
+O99,C20,R20,Lettuce Romaine Chopped,4/2/2026,9:18:00 PM,Not fulfilled,31.6
+O100,C5,R21,Lettuce Romaine Chopped,5/12/2026,11:07:00 PM,Not fulfilled,38.7
+O101,C6,R22,Lettuce Romaine Chopped,7/12/2025,3:16:00 AM,Not fulfilled,32.3
+O102,C7,R23,Lettuce Romaine Chopped,7/12/2025,8:38:00 AM,completed,31.8
+O103,C8,R24,Lettuce Romaine Chopped,9/25/2025,3:15:00 AM,completed,33.6
+O104,C9,R25,Lettuce Romaine Chopped,2/22/2026,12:41:00 PM,Not fulfilled,33.9
+O105,C10,R26,Lettuce Romaine Chopped,11/3/2025,10:03:00 PM,Not fulfilled,23.5
+O106,C11,R27,Lettuce Romaine Chopped,6/9/2025,11:51:00 AM,completed,12.1
+O107,C12,R28,Lettuce Romaine Chopped,8/28/2025,8:31:00 PM,Not fulfilled,14.2
+O108,C13,R1,Lettuce Romaine Chopped,4/14/2026,8:03:00 PM,Not fulfilled,18.4
+O109,C14,R2,Lettuce Romaine Chopped,11/7/2025,11:46:00 AM,completed,8
+O110,C15,R3,Lettuce Romaine Chopped,6/20/2025,2:02:00 PM,Not fulfilled,35.7
+O111,C16,R4,Lettuce Romaine Chopped,11/4/2025,9:01:00 AM,Not fulfilled,38.9
+O112,C17,R5,Lettuce Romaine Chopped,10/17/2025,4:41:00 PM,completed,39.3
+O113,C18,R6,Lettuce Romaine Chopped,9/21/2025,11:25:00 PM,Not fulfilled,14.8
+O114,C19,R7,Lettuce Romaine Chopped,3/4/2026,8:29:00 AM,Not fulfilled,44.6
+O115,C20,R8,Lettuce Romaine Chopped,2/7/2026,12:21:00 AM,Not fulfilled,31.4
+O116,C1,R9,Lettuce Romaine Chopped,3/28/2026,10:36:00 PM,Not fulfilled,27.8
+O117,C2,R10,Lettuce Romaine Chopped,3/16/2026,8:21:00 AM,completed,24.8
+O118,C3,R11,Lettuce Romaine Chopped,1/8/2026,12:18:00 PM,Not fulfilled,8.9
+O119,C4,R1,Lettuce Romaine Chopped,11/28/2025,9:47:00 AM,completed,34.8
+O120,C5,R2,Lettuce Romaine Chopped,8/18/2025,6:48:00 AM,Not fulfilled,5.7
+O121,C5,R3,Lettuce Romaine Chopped,8/6/2025,5:24:00 AM,Not fulfilled,39.8
+O122,C6,R4,Lettuce Romaine Chopped,3/2/2026,3:08:00 AM,completed,11.4
+O123,C7,R5,Lettuce Romaine Chopped,7/27/2025,3:47:00 AM,completed,41.3
+O124,C8,R6,Lettuce Romaine Chopped,11/8/2025,3:48:00 AM,Not fulfilled,30.9
+O125,C9,R7,Lettuce Romaine Chopped,6/14/2025,2:04:00 PM,completed,20.5
+O126,C10,R8,Lettuce Romaine Chopped,1/24/2026,2:55:00 AM,completed,23.6
+O127,C11,R9,Lettuce Romaine Chopped,12/23/2025,9:08:00 AM,completed,22.9
+O128,C12,R10,Lettuce Romaine Chopped,5/30/2026,7:21:00 AM,Not fulfilled,30.6
+O129,C13,R11,Lettuce Romaine Chopped,2/13/2026,1:41:00 AM,Not fulfilled,14.5
+O130,C14,R12,Lettuce Romaine Chopped,4/28/2026,4:02:00 AM,completed,28.2
+O131,C15,R13,Lettuce Romaine Chopped,8/26/2025,9:31:00 PM,Not fulfilled,30.1
+O132,C16,R14,Lettuce Romaine Chopped,9/6/2025,2:17:00 AM,Not fulfilled,42.3
+O133,C17,R15,Lettuce Romaine Chopped,7/12/2025,1:13:00 AM,completed,28.1
+O134,C18,R16,Lettuce Romaine Chopped,1/2/2026,1:19:00 AM,completed,19.5
+O135,C19,R17,Lettuce Romaine Chopped,4/17/2026,4:39:00 AM,Not fulfilled,39.7
+O136,C20,R18,Lettuce Romaine Chopped,5/14/2026,10:53:00 AM,completed,38.6
+O137,C5,R19,Lettuce Romaine Chopped,5/7/2026,3:00:00 PM,completed,6.7
+O138,C6,R20,Lettuce Romaine Chopped,1/28/2026,10:57:00 PM,Not fulfilled,35.2
+O139,C7,R21,Lettuce Romaine Chopped,1/26/2026,9:22:00 PM,completed,32.5
+O140,C8,R22,Lettuce Romaine Chopped,7/31/2025,5:33:00 PM,completed,7.8
+O141,C9,R23,Lettuce Romaine Chopped,1/21/2026,1:51:00 PM,Not fulfilled,6.6
+O142,C10,R24,Lettuce Romaine Chopped,8/7/2025,4:30:00 PM,completed,12.6
+O143,C11,R25,Lettuce Romaine Chopped,5/24/2026,3:33:00 PM,Not fulfilled,31
+O144,C12,R26,Lettuce Romaine Chopped,10/29/2025,4:53:00 PM,completed,26.2
+O145,C13,R27,Lettuce Romaine Chopped,5/31/2025,11:33:00 AM,completed,5.1
+O146,C14,R28,Lettuce Romaine Chopped,12/29/2025,4:21:00 PM,Not fulfilled,23.1
+O147,C15,R1,Lettuce Romaine Chopped,8/2/2025,6:54:00 AM,completed,26.7
+O148,C16,R2,Lettuce Romaine Chopped,1/28/2026,1:28:00 PM,Not fulfilled,23.7
+O149,C17,R3,Lettuce Romaine Chopped,9/6/2025,2:37:00 AM,completed,18.9
+O150,C18,R4,Lettuce Romaine Chopped,11/14/2025,1:29:00 AM,completed,11.4
+O151,C19,R5,Lettuce Romaine Chopped,7/8/2025,4:27:00 PM,completed,27.7
+O152,C20,R6,Lettuce Romaine Chopped,6/12/2025,2:56:00 AM,completed,43.3
+O153,C1,R7,Lettuce Romaine Chopped,7/25/2025,1:23:00 PM,completed,6.3
+O154,C2,R8,Lettuce Romaine Chopped,8/28/2025,6:23:00 AM,completed,7.6
+O155,C3,R9,Lettuce Romaine Chopped,8/28/2025,7:28:00 AM,Not fulfilled,14.6
+O156,C1,R10,Lettuce Romaine Chopped,7/1/2025,1:20:00 AM,Not fulfilled,6.5
+O157,C2,R11,Lettuce Romaine Chopped,4/11/2026,3:54:00 AM,completed,16
+O158,C3,R12,Lettuce Romaine Chopped,3/11/2026,6:45:00 AM,Not fulfilled,11.3
+O159,C4,R13,Lettuce Romaine Chopped,5/20/2026,9:50:00 PM,completed,7.4
+O160,C5,R14,Lettuce Romaine Chopped,12/17/2025,4:31:00 PM,Not fulfilled,10.1
+O161,C6,R15,Lettuce Romaine Chopped,4/18/2026,2:39:00 AM,completed,17.1
+O162,C7,R16,Sandwich Wrap,6/1/2025,5:00:00 AM,Not fulfilled,47.8
+O163,C8,R17,Sandwich Wrap,1/19/2026,9:19:00 AM,completed,43.9
+O164,C9,R18,Sandwich Wrap,10/24/2025,4:56:00 AM,Not fulfilled,44.7
+O165,C10,R19,Sandwich Wrap,11/30/2025,1:45:00 AM,Not fulfilled,25.8
+O166,C11,R20,Sandwich Wrap,5/4/2026,8:01:00 AM,completed,15.3
+O167,C12,R3,Sandwich Wrap,5/26/2026,11:05:00 PM,completed,24.6
+O168,C13,R4,Sandwich Wrap,8/7/2025,9:21:00 AM,completed,44.6
+O169,C14,R5,Sandwich Wrap,11/26/2025,2:20:00 AM,Not fulfilled,24.6
+O170,C15,R6,Sandwich Wrap,5/3/2026,5:16:00 AM,Not fulfilled,9.7
+O171,C16,R7,Sandwich Wrap,4/23/2026,5:17:00 AM,completed,34.6
+O172,C17,R8,Sandwich Wrap,4/26/2026,8:09:00 PM,Not fulfilled,14.2
+O173,C18,R9,Sandwich Wrap,10/21/2025,8:18:00 AM,Not fulfilled,22
+O174,C19,R10,Sandwich Wrap,7/19/2025,9:30:00 PM,completed,35.6
+O175,C20,R11,Sandwich Wrap,5/21/2026,4:56:00 PM,completed,18.6
+O176,C1,R12,Sandwich Wrap,9/23/2025,1:47:00 PM,Not fulfilled,19.6
+O177,C2,R13,Sandwich Wrap,3/22/2026,2:50:00 AM,completed,41.4
+O178,C3,R14,Sandwich Wrap,1/15/2026,10:14:00 AM,Not fulfilled,7.8
+O179,C4,R15,Sandwich Wrap,8/29/2025,7:45:00 AM,completed,16.5
+O180,C5,R16,Sandwich Wrap,5/28/2026,4:19:00 AM,Not fulfilled,36.2
+O181,C6,R17,Sandwich Wrap,2/3/2026,3:12:00 PM,completed,12.4
+O182,C7,R12,Sandwich Wrap,7/13/2025,12:03:00 AM,Not fulfilled,38.9
+O183,C8,R13,Sandwich Wrap,2/1/2026,2:20:00 AM,completed,7.7
+O184,C9,R14,Sandwich Wrap,7/15/2025,9:03:00 AM,Not fulfilled,17.8
+O185,C10,R15,Sandwich Wrap,4/18/2026,9:53:00 AM,Not fulfilled,50
+O186,C11,R16,Sandwich Wrap,8/28/2025,7:30:00 AM,completed,35.8
+O187,C12,R17,Sandwich Wrap,1/21/2026,6:17:00 AM,completed,27.1
+O188,C13,R12,Sandwich Wrap,6/10/2025,12:03:00 AM,Not fulfilled,47.6
+O189,C14,R13,Sandwich Wrap,12/11/2025,8:00:00 PM,Not fulfilled,29.7
+O190,C15,R14,Sandwich Wrap,7/7/2025,4:17:00 PM,Not fulfilled,45.2
+O191,C16,R15,Sandwich Wrap,11/27/2025,6:04:00 PM,completed,32.9
+O192,C17,R16,Sandwich Wrap,11/21/2025,8:50:00 AM,Not fulfilled,21.7
+O193,C18,R17,Sandwich Wrap,4/18/2026,1:27:00 PM,Not fulfilled,19.1
+O194,C19,R14,Sandwich Wrap,6/14/2025,2:33:00 AM,completed,46.8
+O195,C20,R15,Sandwich Wrap,7/1/2025,10:17:00 AM,completed,17.6
+O196,C5,R16,Sandwich Wrap,6/7/2025,5:29:00 AM,Not fulfilled,20.8
+O197,C6,R17,Sandwich Wrap,6/14/2025,4:33:00 PM,Not fulfilled,47.3
+O198,C7,R1,Sandwich Wrap,5/10/2026,1:58:00 PM,Not fulfilled,5.4
+O199,C8,R2,Sandwich Wrap,10/31/2025,9:54:00 AM,Not fulfilled,31.3
+O200,C9,R3,Sandwich Wrap,7/31/2025,12:32:00 PM,Not fulfilled,29.6
+O201,C10,R4,Sandwich Wrap,6/2/2025,10:53:00 AM,completed,20.4
+O202,C11,R5,Sandwich Wrap,7/4/2025,4:01:00 AM,Not fulfilled,13.2
+O203,C12,R6,Lettuce Romaine Chopped,3/5/2026,4:47:00 PM,completed,45.4
+O204,C13,R7,Lettuce Romaine Chopped,6/16/2025,5:33:00 PM,Not fulfilled,6.1
+O205,C14,R8,Lettuce Romaine Chopped,10/20/2025,5:21:00 PM,completed,45.6
+O206,C15,R9,Lettuce Romaine Chopped,3/17/2026,7:17:00 AM,Not fulfilled,23.9
+O207,C16,R10,Lettuce Romaine Chopped,10/11/2025,8:32:00 AM,completed,13
+O208,C17,R11,Lettuce Romaine Chopped,1/2/2026,9:55:00 AM,completed,38.8
+O209,C18,R12,Lettuce Romaine Chopped,2/1/2026,2:18:00 AM,completed,24.2
+O210,C19,R13,Lettuce Romaine Chopped,5/13/2026,7:02:00 PM,completed,31.4
+O211,C20,R14,Lettuce Romaine Chopped,11/5/2025,11:57:00 AM,completed,9.1
+O212,C1,R15,Sandwich Wrap,3/22/2026,8:48:00 PM,completed,47.9
+O213,C2,R16,Sandwich Wrap,3/30/2026,6:55:00 PM,completed,24.2
+O214,C3,R17,Sandwich Wrap,5/29/2026,11:59:00 AM,Not fulfilled,34
+O215,C4,R18,Sandwich Wrap,11/11/2025,9:37:00 AM,completed,16.2
+O216,C5,R19,Sandwich Wrap,1/29/2026,10:54:00 AM,completed,35.2
+O217,C5,R20,Sandwich Wrap,1/21/2026,6:21:00 AM,completed,43.8
+O218,C6,R21,Sandwich Wrap,10/27/2025,12:56:00 PM,completed,5.2
+O219,C7,R22,Sandwich Wrap,5/15/2026,2:53:00 PM,completed,5.4
+O220,C8,R23,Sandwich Wrap,3/17/2026,7:26:00 PM,Not fulfilled,27.2
+O221,C9,R24,Sandwich Wrap,9/19/2025,7:12:00 AM,completed,49.3
+O222,C10,R25,Sandwich Wrap,7/19/2025,5:13:00 PM,completed,35.8
+O223,C11,R26,Sandwich Wrap,7/18/2025,3:14:00 AM,Not fulfilled,41.3
+O224,C12,R27,Sandwich Wrap,1/31/2026,3:59:00 AM,Not fulfilled,14.2
+O225,C13,R28,Sandwich Wrap,10/19/2025,7:24:00 PM,completed,7
+O226,C14,R1,Sandwich Wrap,11/16/2025,7:43:00 AM,completed,25.1
+O227,C15,R2,Sandwich Wrap,9/26/2025,2:23:00 PM,Not fulfilled,18.5
+O228,C16,R3,Sandwich Wrap,11/21/2025,10:50:00 PM,completed,47
+O229,C17,R4,Sandwich Wrap,4/17/2026,9:10:00 AM,completed,38.5
+O230,C18,R5,Sandwich Wrap,11/29/2025,9:23:00 AM,completed,8.6
+O231,C19,R6,Sandwich Wrap,3/15/2026,11:45:00 AM,completed,24.2
+O232,C20,R7,Sandwich Wrap,4/9/2026,3:09:00 AM,completed,15.6
+O233,C5,R8,Sandwich Wrap,6/10/2025,3:46:00 AM,completed,16.2
+O234,C6,R9,Sandwich Wrap,4/17/2026,4:26:00 PM,Not fulfilled,44.2
+O235,C7,R10,Sandwich Wrap,11/6/2025,4:20:00 AM,completed,35.6
+O236,C8,R11,Sandwich Wrap,5/20/2026,8:39:00 PM,completed,49.1
+O237,C9,R12,Sandwich Wrap,11/4/2025,9:31:00 PM,Not fulfilled,47
+O238,C10,R13,Sandwich Wrap,1/31/2026,6:40:00 AM,completed,42.5
+O239,C11,R14,Sandwich Wrap,7/6/2025,9:30:00 PM,completed,34.4
+O240,C12,R15,Sandwich Wrap,3/14/2026,5:26:00 PM,Not fulfilled,10.3
+O241,C13,R16,Sandwich Wrap,10/19/2025,10:44:00 AM,completed,39.9
+O242,C14,R17,Sandwich Wrap,10/23/2025,2:50:00 PM,Not fulfilled,41.4
+O243,C15,R18,Sandwich Wrap,3/8/2026,4:44:00 PM,Not fulfilled,41.4
+O244,C16,R19,Dikon,7/4/2025,6:12:00 PM,completed,40
+O245,C17,R20,Dikon,3/14/2026,5:36:00 AM,Not fulfilled,30
+O246,C18,R3,Dikon,12/17/2025,10:41:00 AM,completed,40.2
+O247,C19,R4,Dikon,11/22/2025,2:01:00 AM,Not fulfilled,48.3
+O248,C20,R5,Dikon,1/31/2026,8:59:00 PM,completed,40.9
+O249,C1,R6,Dikon,1/20/2026,10:17:00 PM,completed,12.1
+O250,C2,R7,Dikon,10/24/2025,7:47:00 PM,completed,49.2
+O251,C3,R8,Dikon,3/29/2026,12:52:00 PM,completed,15.8
+O252,C4,R9,Dikon,5/20/2026,6:01:00 PM,Not fulfilled,23.9
+O253,C5,R10,Dikon,2/5/2026,10:38:00 PM,Not fulfilled,49.7
+O254,C20,R11,Dikon,1/17/2026,1:08:00 PM,Not fulfilled,32.9
+O255,C5,R12,Dikon,8/30/2025,5:21:00 AM,completed,31.1
+O256,C6,R13,Dikon,10/20/2025,7:04:00 PM,completed,26.5
+O257,C7,R14,Dikon,11/26/2025,12:09:00 PM,Not fulfilled,6
+O258,C8,R15,Dikon,9/24/2025,8:55:00 PM,Not fulfilled,27.4
+O259,C9,R16,Dikon,11/17/2025,9:40:00 AM,completed,40.8
+O260,C10,R17,Dikon,10/24/2025,5:50:00 PM,completed,40.5
+O261,C11,R12,Dikon,2/21/2026,6:10:00 AM,completed,26.2
+O262,C12,R13,Dikon,8/10/2025,12:47:00 PM,completed,35.9
+O263,C13,R14,Dikon,10/8/2025,5:26:00 PM,completed,23.7
+O264,C14,R15,Dikon,1/2/2026,5:28:00 PM,Not fulfilled,7.7
+O265,C15,R16,Dikon,9/22/2025,8:58:00 PM,completed,14.9
+O266,C16,R17,Dikon,6/16/2025,3:38:00 AM,Not fulfilled,19.4
+O267,C17,R12,Dikon,12/15/2025,4:11:00 PM,completed,25.3
+O268,C18,R13,Dikon,4/14/2026,3:41:00 PM,Not fulfilled,42.5
+O269,C19,R14,Dikon,7/22/2025,2:17:00 PM,Not fulfilled,23.3
+O270,C20,R15,Dikon,1/15/2026,2:26:00 PM,completed,42.1
+O271,C1,R16,Dikon,10/8/2025,9:42:00 PM,Not fulfilled,15.1
+O272,C2,R17,Dikon,9/10/2025,4:11:00 AM,completed,28.2
+O273,C3,R14,Dikon,10/26/2025,9:18:00 PM,Not fulfilled,44.5
+O274,C4,R15,Dikon,2/21/2026,1:33:00 PM,completed,6.3
+O275,C5,R16,Dikon,12/2/2025,7:00:00 AM,Not fulfilled,43.5
+O276,C5,R17,Dikon,6/21/2025,4:45:00 AM,completed,29.2
+O277,C6,R1,Dikon,9/19/2025,8:48:00 PM,Not fulfilled,39.5
+O278,C7,R2,Dikon,7/26/2025,8:09:00 AM,Not fulfilled,33.1
+O279,C8,R3,Dikon,1/9/2026,11:09:00 PM,completed,26.4
+O280,C9,R4,Dikon,10/6/2025,9:04:00 PM,completed,40.6
+O281,C10,R5,Dikon,9/30/2025,11:55:00 PM,Not fulfilled,19
+O282,C11,R6,Dikon,2/17/2026,1:25:00 PM,Not fulfilled,46.9
+O283,C12,R7,Dikon,11/21/2025,7:52:00 PM,Not fulfilled,19.9
+O284,C13,R8,Dikon,12/22/2025,7:39:00 PM,completed,47.5
+O285,C14,R9,Dikon,2/20/2026,6:47:00 PM,Not fulfilled,16.5
+O286,C15,R10,Dikon,10/27/2025,3:00:00 PM,Not fulfilled,10.4
+O287,C16,R11,Dikon,4/22/2026,10:49:00 PM,Not fulfilled,23.9
+O288,C17,R12,Dikon,3/11/2026,8:59:00 AM,Not fulfilled,8.4
+O289,C18,R13,Dikon,2/14/2026,1:35:00 AM,Not fulfilled,13.7
+O290,C19,R14,Dikon,2/17/2026,12:11:00 AM,Not fulfilled,48.7
+O291,C20,R15,Dikon,2/17/2026,4:13:00 AM,Not fulfilled,25.7
+O292,C5,R16,Dikon,10/20/2025,10:10:00 PM,Not fulfilled,31.9
+O293,C6,R17,Dikon,7/19/2025,8:09:00 PM,Not fulfilled,45.5
+O294,C7,R18,Dikon,5/5/2026,5:31:00 AM,Not fulfilled,40.7
+O295,C8,R19,Dikon,5/7/2026,11:02:00 AM,Not fulfilled,23.2
+O296,C9,R20,Dikon,11/12/2025,6:29:00 AM,completed,26.8
+O297,C10,R21,Dikon,4/28/2026,1:32:00 AM,Not fulfilled,30.2
+O298,C11,R22,Dikon,5/4/2026,6:55:00 AM,completed,44.1
+O299,C12,R23,Dikon,6/19/2025,9:31:00 PM,Not fulfilled,30.4
+O300,C13,R24,Dikon,8/17/2025,5:57:00 PM,completed,46.9
+O301,C14,R25,Dikon,9/22/2025,3:00:00 PM,completed,24.5
+O302,C15,R26,Dikon,5/2/2026,10:46:00 AM,Not fulfilled,6.9
+O303,C16,R27,Dikon,2/17/2026,3:36:00 AM,Not fulfilled,45.5
+O304,C17,R28,Dikon,11/21/2025,10:32:00 PM,completed,33.9
+O305,C18,R1,Dikon,2/12/2026,1:00:00 PM,Not fulfilled,32.5
+O306,C19,R2,Dikon,6/5/2025,4:45:00 AM,completed,30.1
+O307,C20,R3,Dikon,7/14/2025,2:09:00 AM,completed,25.5
+O308,C1,R4,Dikon,9/30/2025,1:01:00 PM,completed,14.4
+O309,C2,R5,Dikon,4/8/2026,11:09:00 AM,Not fulfilled,49.5
+O310,C3,R6,Dikon,7/28/2025,6:45:00 PM,Not fulfilled,47.8
+O311,C19,R7,Dikon,4/8/2026,7:40:00 AM,Not fulfilled,42.5
+O312,C20,R8,Dikon,10/15/2025,6:39:00 PM,completed,11.5
+O313,C5,R9,Dikon,4/28/2026,6:07:00 PM,completed,27.8
+O314,C6,R10,Dikon,12/24/2025,4:33:00 PM,Not fulfilled,12.6
+O315,C7,R11,Dikon,5/16/2026,12:48:00 PM,Not fulfilled,47.4
+O316,C8,R12,Dikon,3/28/2026,8:40:00 PM,Not fulfilled,33
+O317,C9,R13,Dikon,7/24/2025,5:47:00 AM,Not fulfilled,22.5
+O318,C10,R14,Dikon,12/26/2025,10:09:00 PM,Not fulfilled,6.4
+O319,C11,R15,Dikon,5/17/2026,2:41:00 PM,completed,34.4
+O320,C12,R16,Dikon,9/27/2025,8:21:00 AM,completed,16.6
+O321,C13,R17,Dikon,6/29/2025,7:53:00 PM,completed,24.9
+O322,C14,R18,Dikon,8/30/2025,2:19:00 AM,Not fulfilled,15.9
+O323,C15,R19,Dikon,11/1/2025,10:47:00 AM,completed,20.9
+O324,C16,R20,Dikon,4/25/2026,1:23:00 PM,Not fulfilled,21.7
+O325,C17,R3,Dikon,10/22/2025,10:45:00 PM,completed,41.8
+O326,C18,R4,Sausage - Blood Pudding,6/21/2025,3:32:00 AM,Not fulfilled,43.2
+O327,C19,R5,Appetizer - Shrimp Puff,9/6/2025,9:20:00 PM,Not fulfilled,28.6
+O328,C20,R6,Puree - Mango,3/25/2026,3:44:00 AM,Not fulfilled,7
+O329,C1,R7,Chevere Logs,6/17/2025,7:22:00 PM,completed,19.1
+O330,C2,R8,Beer - Camerons Auburn,5/6/2026,5:38:00 PM,Not fulfilled,40.5
+O331,C3,R9,"Coffee - Colombian, Portioned",2/4/2026,12:20:00 PM,Not fulfilled,27.5
+O332,C1,R10,"Doilies - 8, Paper",9/22/2025,8:37:00 PM,completed,49
+O333,C2,R11,Soup - Campbells Bean Medley,11/7/2025,5:00:00 PM,completed,46.2
+O334,C3,R12,Compound - Mocha,4/13/2026,6:36:00 AM,Not fulfilled,48.3
+O335,C4,R13,Longos - Burritos,7/18/2025,12:20:00 AM,Not fulfilled,31.3
+O336,C5,R14,Sloe Gin - Mcguinness,11/29/2025,10:53:00 PM,Not fulfilled,8.6
+O337,C6,R15,Tuna - Yellowfin,9/13/2025,7:25:00 AM,Not fulfilled,19.4
+O338,C7,R16,Muffin Mix - Raisin Bran,5/3/2026,5:46:00 PM,Not fulfilled,33.8
+O339,C8,R17,Soup - Cream Of Potato / Leek,3/23/2026,5:33:00 AM,completed,30.8
+O340,C9,R12,Pomegranates,8/7/2025,4:00:00 PM,completed,31
+O341,C10,R13,Energy Drink - Redbull 355ml,9/19/2025,12:26:00 AM,completed,40.8
+O342,C11,R14,Mushroom - King Eryingii,12/26/2025,1:38:00 PM,completed,26.1
+O343,C12,R15,Sterno - Chafing Dish Fuel,6/17/2025,4:09:00 AM,Not fulfilled,13.9
+O344,C13,R16,Bread - Multigrain,5/12/2026,2:28:00 AM,Not fulfilled,29.9
+O345,C14,R17,Bar - Granola Trail Mix Fruit Nut,12/4/2025,8:33:00 PM,Not fulfilled,44.9
+O346,C15,R12,Fond - Chocolate,8/25/2025,1:27:00 AM,completed,12.2
+O347,C16,R13,Pork - Back Ribs,8/16/2025,5:24:00 AM,Not fulfilled,6.2
+O348,C17,R14,Coffee Swiss Choc Almond,7/23/2025,7:50:00 AM,completed,27.1
+O349,C18,R15,Chocolate - White,1/28/2026,5:01:00 PM,completed,20
+O350,C19,R16,General Purpose Trigger,2/2/2026,2:08:00 PM,Not fulfilled,43.3
+O351,C20,R17,Mustard - Seed,11/4/2025,5:17:00 AM,Not fulfilled,8.7
+O352,C1,R14,"Syrup - Monin, Irish Cream",5/9/2026,4:04:00 AM,completed,43.2
+O353,C2,R15,"Sauce - Black Current, Dry Mix",5/16/2026,2:54:00 PM,Not fulfilled,16.1
+O354,C3,R16,Coffee Swiss Choc Almond,5/12/2026,10:10:00 AM,Not fulfilled,38.3
+O355,C4,R17,Coffee Swiss Choc Almond,2/20/2026,3:50:00 AM,Not fulfilled,42.2
+O356,C5,R14,Coffee Swiss Choc Almond,11/1/2025,11:32:00 AM,completed,16.6
+O357,C6,R15,Coffee Swiss Choc Almond,1/19/2026,6:58:00 AM,Not fulfilled,39.4
+O358,C7,R16,Coffee Swiss Choc Almond,10/1/2025,1:53:00 PM,Not fulfilled,20.6
+O359,C8,R17,Coffee Swiss Choc Almond,9/9/2025,1:15:00 AM,Not fulfilled,42.2
+O360,C9,R12,Coffee Swiss Choc Almond,6/16/2025,1:28:00 PM,completed,33.1
+O361,C10,R13,Coffee Swiss Choc Almond,8/7/2025,4:16:00 AM,Not fulfilled,25.3
+O362,C11,R14,Coffee Swiss Choc Almond,12/16/2025,8:15:00 AM,Not fulfilled,9.3
+O363,C12,R15,Coffee Swiss Choc Almond,10/19/2025,4:14:00 PM,Not fulfilled,36.3
+O364,C13,R16,Coffee Swiss Choc Almond,5/25/2026,9:04:00 PM,Not fulfilled,45.7
+O365,C14,R17,Coffee Swiss Choc Almond,8/5/2025,12:32:00 AM,Not fulfilled,6.9
+O366,C15,R12,Coffee Swiss Choc Almond,12/23/2025,10:28:00 AM,completed,14.8
+O367,C16,R13,Coffee Swiss Choc Almond,7/19/2025,5:50:00 PM,Not fulfilled,45.7
+O368,C17,R14,Coffee Swiss Choc Almond,5/17/2026,7:08:00 AM,completed,10.9
+O369,C18,R15,Coffee Swiss Choc Almond,5/25/2026,7:33:00 AM,completed,28
+O370,C19,R16,Coffee Swiss Choc Almond,3/1/2026,8:31:00 AM,completed,39.6
+O371,C20,R17,Coffee Swiss Choc Almond,11/15/2025,11:29:00 AM,completed,22.7
+O372,C5,R14,Yokaline,9/20/2025,5:29:00 AM,Not fulfilled,45.9
+O373,C6,R15,Yokaline,12/5/2025,1:26:00 PM,Not fulfilled,16.1
+O374,C7,R16,Yokaline,6/13/2025,8:22:00 PM,completed,11.6
+O375,C8,R17,Yokaline,11/1/2025,6:53:00 PM,completed,42.7
+O376,C9,R1,Yokaline,8/18/2025,4:57:00 PM,Not fulfilled,30.6
+O377,C10,R2,Yokaline,4/15/2026,7:38:00 PM,Not fulfilled,41.7
+O378,C11,R3,Yokaline,12/10/2025,10:31:00 PM,completed,42.1
+O379,C12,R4,Lettuce Romaine Chopped,9/24/2025,7:55:00 AM,completed,22.5
+O380,C13,R5,Lettuce Romaine Chopped,11/6/2025,8:37:00 AM,completed,25.8
+O381,C14,R6,Lettuce Romaine Chopped,1/5/2026,10:29:00 AM,completed,38
+O382,C15,R7,Lettuce Romaine Chopped,3/13/2026,7:04:00 AM,Not fulfilled,47.4
+O383,C16,R8,Lettuce Romaine Chopped,3/5/2026,9:25:00 AM,completed,36
+O384,C17,R9,Lettuce Romaine Chopped,9/26/2025,9:06:00 PM,Not fulfilled,28.6
+O385,C18,R10,Lettuce Romaine Chopped,10/24/2025,1:16:00 AM,completed,36.4
+O386,C19,R11,Lettuce Romaine Chopped,1/5/2026,10:35:00 PM,Not fulfilled,34.4
+O387,C20,R12,Lettuce Romaine Chopped,9/1/2025,7:38:00 PM,completed,30.5
+O388,C1,R13,Lettuce Romaine Chopped,8/14/2025,6:46:00 AM,Not fulfilled,21.8
+O389,C2,R14,Lettuce Romaine Chopped,12/21/2025,3:32:00 PM,Not fulfilled,28.4
+O390,C3,R15,Lettuce Romaine Chopped,3/31/2026,6:19:00 AM,Not fulfilled,6.4
+O391,C4,R16,Lettuce Romaine Chopped,12/21/2025,6:27:00 AM,completed,43.1
+O392,C5,R17,Lettuce Romaine Chopped,12/4/2025,6:35:00 PM,Not fulfilled,29
+O393,C5,R18,Lettuce Romaine Chopped,5/27/2026,6:17:00 PM,Not fulfilled,42.2
+O394,C6,R19,Lettuce Romaine Chopped,8/19/2025,2:15:00 PM,completed,27
+O395,C7,R20,Lettuce Romaine Chopped,1/26/2026,2:31:00 AM,Not fulfilled,13.8
+O396,C8,R21,Lettuce Romaine Chopped,6/29/2025,10:55:00 PM,completed,36.4
+O397,C9,R22,Lettuce Romaine Chopped,3/5/2026,11:48:00 PM,Not fulfilled,45.4
+O398,C10,R23,Lettuce Romaine Chopped,9/16/2025,5:39:00 AM,completed,8.7
+O399,C11,R24,Lettuce Romaine Chopped,2/5/2026,4:13:00 AM,Not fulfilled,23.7
+O400,C12,R25,Lettuce Romaine Chopped,2/27/2026,4:02:00 PM,completed,6.5
+O401,C13,R15,Yokaline,7/23/2025,4:40:00 PM,completed,19.7
+O402,C14,R16,Yokaline,1/13/2026,10:42:00 AM,Not fulfilled,10.7
+O403,C15,R17,Yokaline,10/30/2025,12:58:00 PM,Not fulfilled,12.6
+O404,C16,R12,Yokaline,4/28/2026,11:44:00 PM,completed,48.4
+O405,C17,R13,Coffee Swiss Choc Almond,7/3/2025,7:32:00 PM,Not fulfilled,10.4
+O406,C18,R14,Coffee Swiss Choc Almond,8/17/2025,10:36:00 PM,Not fulfilled,8.6
+O407,C19,R15,Coffee Swiss Choc Almond,3/27/2026,10:54:00 PM,Not fulfilled,46.4
+O408,C20,R16,Coffee Swiss Choc Almond,6/29/2025,1:05:00 PM,completed,11.7
+O409,C5,R17,Coffee Swiss Choc Almond,1/24/2026,3:14:00 AM,Not fulfilled,43.8
+O410,C6,R14,Coffee Swiss Choc Almond,11/29/2025,6:20:00 PM,Not fulfilled,29
+O411,C7,R15,Coffee Swiss Choc Almond,4/24/2026,8:20:00 AM,completed,8.1
+O412,C8,R16,Coffee Swiss Choc Almond,6/19/2025,6:17:00 PM,completed,21.1
+O413,C9,R17,Coffee Swiss Choc Almond,4/30/2026,11:30:00 PM,Not fulfilled,12.4
+O414,C10,R14,Coffee Swiss Choc Almond,9/3/2025,7:41:00 PM,completed,17
+O415,C11,R15,Coffee Swiss Choc Almond,5/31/2025,8:35:00 AM,Not fulfilled,25.6
+O416,C12,R16,Pur Value,2/13/2026,2:01:00 PM,completed,17.3
+O417,C13,R17,Pur Value,4/12/2026,3:09:00 AM,Not fulfilled,11.4
+O418,C14,R12,Pur Value,10/26/2025,2:47:00 AM,completed,17.4
+O419,C15,R13,Pur Value,8/24/2025,3:25:00 PM,completed,49.6
+O420,C19,R14,Pur Value,6/4/2025,2:09:00 AM,Not fulfilled,47.6
+O421,C20,R15,Pur Value,10/12/2025,1:28:00 AM,Not fulfilled,25
+O422,C5,R16,Pur Value,10/9/2025,5:18:00 PM,completed,46.7
+O423,C6,R17,Pur Value,10/16/2025,8:24:00 AM,completed,36.2
+O424,C7,R12,Pur Value,10/21/2025,4:24:00 AM,Not fulfilled,12.4
+O425,C8,R13,Pur Value,5/22/2026,2:34:00 AM,completed,10.2
+O426,C9,R14,Pur Value,4/14/2026,5:15:00 AM,Not fulfilled,27.2
+O427,C10,R15,Pur Value,3/21/2026,5:42:00 AM,Not fulfilled,44.6
+O428,C11,R16,Pur Value,4/18/2026,1:08:00 AM,Not fulfilled,12.6
+O429,C12,R17,Pur Value,10/5/2025,1:01:00 AM,Not fulfilled,12.2
+O430,C13,R14,Pur Value,12/8/2025,5:32:00 PM,completed,24
+O431,C14,R15,Pur Value,7/8/2025,1:45:00 AM,completed,38.9
+O432,C15,R16,Pur Value,2/22/2026,3:05:00 PM,Not fulfilled,21.1
+O433,C16,R17,Pur Value,2/27/2026,11:56:00 PM,Not fulfilled,40.2
+O434,C17,R1,Salt - Kosher,5/18/2026,1:26:00 AM,Not fulfilled,40.7
+O435,C18,R2,Sugar - Icing,1/4/2026,5:48:00 PM,Not fulfilled,32.8
+O436,C19,R3,"Juice - Clamato, 341 Ml",7/10/2025,2:09:00 PM,completed,46
+O437,C20,R4,Magnotta Bel Paese Red,8/2/2025,8:37:00 AM,completed,26.4
+O438,C1,R5,"Fish - Base, Bouillion",1/29/2026,2:15:00 PM,Not fulfilled,22.2
+O439,C2,R6,Coffee Swiss Choc Almond,3/13/2026,8:39:00 PM,Not fulfilled,29.4
+O440,C3,R7,Coffee Swiss Choc Almond,8/21/2025,11:33:00 AM,Not fulfilled,17.1
+O441,C1,R8,Coffee Swiss Choc Almond,9/6/2025,1:20:00 AM,completed,40.3
+O442,C2,R9,Coffee Swiss Choc Almond,10/25/2025,8:24:00 PM,Not fulfilled,9.8
+O443,C3,R10,Coffee Swiss Choc Almond,4/28/2026,9:41:00 AM,completed,7.8
+O444,C4,R11,Coffee Swiss Choc Almond,12/28/2025,9:17:00 AM,completed,34.7
+O445,C5,R12,Pur Value,9/21/2025,11:02:00 PM,Not fulfilled,18.2
+O446,C6,R13,Pur Value,12/20/2025,8:59:00 AM,Not fulfilled,46
+O447,C7,R14,Pur Value,9/1/2025,9:35:00 AM,Not fulfilled,22.3
+O448,C8,R15,Pur Value,8/11/2025,11:44:00 AM,completed,17.5
+O449,C9,R16,Pur Value,8/26/2025,10:24:00 PM,completed,14.8
+O450,C10,R17,Pur Value,7/12/2025,5:25:00 PM,completed,21.2
+O451,C11,R18,Pur Value,1/2/2026,7:20:00 AM,Not fulfilled,40.5
+O452,C12,R19,Pur Value,4/28/2026,9:01:00 PM,Not fulfilled,16.6
+O453,C13,R20,Pur Value,12/23/2025,9:39:00 PM,completed,32.6
+O454,C14,R21,Pur Value,10/27/2025,1:09:00 PM,Not fulfilled,47.9
+O455,C15,R22,Pur Value,6/16/2025,7:40:00 AM,Not fulfilled,46.7
+O456,C16,R23,Pur Value,12/10/2025,4:08:00 PM,completed,40.2
+O457,C17,R24,Pur Value,9/6/2025,10:55:00 AM,completed,41.7
+O458,C18,R25,Pur Value,1/1/2026,12:32:00 AM,Not fulfilled,43
+O459,C19,R15,Pur Value,7/24/2025,7:52:00 AM,completed,15.1
+O460,C20,R16,Pur Value,8/9/2025,8:34:00 PM,Not fulfilled,8.3
+O461,C1,R17,Yokaline,4/26/2026,2:10:00 PM,Not fulfilled,31.1
+O462,C2,R12,Yokaline,4/1/2026,2:30:00 PM,Not fulfilled,14.3
+O463,C3,R13,Yokaline,1/13/2026,11:01:00 PM,completed,44.3
+O464,C4,R14,Yokaline,5/27/2026,10:21:00 PM,Not fulfilled,26.2
+O465,C5,R15,Yokaline,10/30/2025,6:43:00 AM,Not fulfilled,9.6
+O466,C6,R16,Yokaline,1/13/2026,6:46:00 PM,Not fulfilled,30.2
+O467,C7,R17,Yokaline,5/24/2026,2:12:00 PM,Not fulfilled,19.6
+O468,C8,R14,Yokaline,3/21/2026,10:03:00 PM,completed,16.3
+O469,C9,R15,Yokaline,7/25/2025,4:06:00 PM,Not fulfilled,13.2
+O470,C10,R16,Yokaline,3/15/2026,3:57:00 PM,completed,47.2
+O471,C11,R17,Yokaline,7/14/2025,3:18:00 AM,completed,17.1
+O472,C12,R14,Yokaline,8/28/2025,10:56:00 AM,Not fulfilled,41.9
+O473,C13,R15,Yokaline,11/30/2025,4:12:00 AM,Not fulfilled,34.5
+O474,C14,R16,Yokaline,6/21/2025,3:12:00 PM,completed,6
+O475,C15,R17,Yokaline,6/4/2025,3:28:00 PM,completed,23.5
+O476,C16,R12,Yokaline,4/27/2026,7:29:00 PM,completed,30.6
+O477,C17,R13,Yokaline,9/25/2025,9:10:00 AM,Not fulfilled,46.9
+O478,C18,R14,Yokaline,8/11/2025,1:48:00 AM,Not fulfilled,30.3
+O479,C19,R15,Yokaline,5/27/2026,2:35:00 PM,Not fulfilled,5.2
+O480,C20,R16,Yokaline,2/5/2026,3:13:00 AM,Not fulfilled,16
+O481,C5,R17,Yokaline,12/7/2025,7:22:00 AM,completed,32.2
+O482,C6,R12,Yokaline,12/9/2025,8:59:00 AM,Not fulfilled,24.5
+O483,C7,R13,Yokaline,1/23/2026,3:34:00 PM,Not fulfilled,24.1
+O484,C8,R14,Yokaline,8/27/2025,6:46:00 PM,Not fulfilled,8.4
+O485,C9,R15,Yokaline,3/20/2026,6:57:00 PM,Not fulfilled,11
+O486,C10,R16,Yokaline,5/25/2026,9:06:00 AM,Not fulfilled,7.5
+O487,C11,R17,Yokaline,8/8/2025,10:22:00 AM,Not fulfilled,9.9
+O488,C12,R14,Yokaline,3/9/2026,1:13:00 PM,Not fulfilled,27.3
+O489,C13,R15,Yokaline,3/4/2026,3:20:00 PM,completed,35.8
+O490,C14,R16,Yokaline,4/12/2026,3:56:00 PM,completed,48.7
+O491,C15,R17,Yokaline,2/27/2026,1:23:00 PM,Not fulfilled,29.1
+O492,C16,R1,Yokaline,3/22/2026,4:29:00 PM,completed,34.6
+O493,C17,R2,Yokaline,7/30/2025,8:14:00 AM,completed,42.8
+O494,C18,R3,Yokaline,7/26/2025,4:42:00 AM,Not fulfilled,25.2
+O495,C19,R4,Yokaline,6/9/2025,6:42:00 PM,Not fulfilled,12.7
+O496,C20,R5,Yokaline,5/21/2026,8:04:00 PM,completed,26.6
+O497,C1,R6,Yokaline,11/24/2025,5:25:00 AM,completed,6.7
+O498,C2,R7,Yokaline,3/29/2026,8:44:00 AM,Not fulfilled,19.3
+O499,C3,R8,Yokaline,5/25/2026,6:44:00 PM,completed,12.3
+O500,C4,R9,Yokaline,12/17/2025,6:15:00 PM,completed,35.2
+O501,C5,R10,Yokaline,12/16/2025,2:33:00 PM,Not fulfilled,25.1
+O502,C5,R11,Yokaline,10/8/2025,1:24:00 AM,completed,32.5
+O503,C6,R12,Yokaline,7/1/2025,5:58:00 PM,Not fulfilled,29.2
+O504,C7,R13,Yokaline,10/10/2025,10:47:00 PM,Not fulfilled,12.2
+O505,C8,R14,Yokaline,1/21/2026,11:33:00 AM,completed,49.5
+O506,C9,R15,Yokaline,3/8/2026,8:01:00 AM,Not fulfilled,7.9
+O507,C10,R16,Yokaline,5/29/2026,6:49:00 PM,completed,42.5
+O508,C11,R17,Yokaline,9/11/2025,11:27:00 AM,completed,17.8
+O509,C12,R18,Yokaline,6/20/2025,9:11:00 AM,completed,11
+O510,C13,R19,Spice - Chili Powder Mexican,6/16/2025,11:54:00 AM,Not fulfilled,37.1
+O511,C14,R20,Samosa - Veg,7/15/2025,8:39:00 PM,Not fulfilled,11.8
+O512,C15,R21,Cucumber - Pickling Ontario,2/18/2026,9:25:00 AM,Not fulfilled,6.2
+O513,C16,R22,Coffee - Decafenated,4/11/2026,12:52:00 PM,Not fulfilled,21.5
+O514,C17,R23,Dikon,9/18/2025,4:34:00 PM,Not fulfilled,30.4
+O515,C18,R24,Dikon,2/4/2026,8:43:00 AM,completed,40.9
+O516,C19,R25,Dikon,8/9/2025,12:04:00 AM,Not fulfilled,12.9
+O517,C20,R15,Dikon,1/1/2026,1:48:00 PM,Not fulfilled,16.2
+O518,C5,R16,Dikon,9/30/2025,9:04:00 PM,completed,21.5
+O519,C6,R17,Dikon,4/3/2026,4:51:00 AM,completed,10.7
+O520,C7,R12,Dikon,11/17/2025,5:24:00 PM,completed,29.4
+O521,C8,R13,Dikon,10/13/2025,5:44:00 PM,completed,7.1
+O522,C9,R14,Dikon,4/24/2026,7:55:00 AM,Not fulfilled,42.3
+O523,C10,R15,Dikon,3/11/2026,11:58:00 AM,Not fulfilled,8
+O524,C11,R16,Dikon,3/15/2026,6:38:00 PM,completed,14.5
+O525,C12,R17,"Mustard - Dry, Powder",1/8/2026,10:12:00 PM,completed,44.1
+O526,C13,R14,Wine - Maipo Valle Cabernet,9/24/2025,9:18:00 AM,Not fulfilled,24
+O527,C14,R15,Bread - Olive,10/21/2025,1:29:00 AM,Not fulfilled,34.7
+O528,C15,R16,Puff Pastry - Slab,3/22/2026,5:41:00 PM,completed,43.2
+O529,C19,R17,"Wine - Red, Wolf Blass, Yellow",3/17/2026,6:37:00 AM,completed,35.6
+O530,C20,R14,Lid Coffeecup 12oz D9542b,8/10/2025,6:17:00 PM,completed,25
+O531,C5,R15,"Wine - Red, Marechal Foch",1/26/2026,8:53:00 PM,Not fulfilled,7.7
+O532,C6,R16,Yokaline,10/18/2025,5:17:00 PM,Not fulfilled,14
+O533,C7,R17,Yokaline,12/6/2025,12:01:00 AM,Not fulfilled,19
+O534,C8,R12,Yokaline,11/30/2025,5:42:00 PM,completed,29.6
+O535,C9,R13,Yokaline,10/12/2025,8:25:00 PM,completed,39.4
+O536,C10,R14,Yokaline,9/12/2025,5:57:00 AM,Not fulfilled,15
+O537,C11,R15,Yokaline,10/7/2025,6:27:00 AM,completed,36
+O538,C12,R16,Yokaline,8/13/2025,12:59:00 PM,Not fulfilled,27.1
+O539,C13,R17,Yokaline,6/19/2025,10:44:00 PM,completed,37.9
+O540,C14,R12,Yokaline,4/5/2026,8:14:00 AM,Not fulfilled,5.4
+O541,C15,R13,Yokaline,6/27/2025,11:51:00 AM,Not fulfilled,25.8
+O542,C16,R14,Yokaline,9/11/2025,8:44:00 AM,completed,28.6
+O543,C17,R15,Vinegar - Sherry,7/14/2025,7:46:00 PM,completed,17.7
+O544,C18,R16,Corn - Mini,6/21/2025,10:13:00 PM,completed,32.3
+O545,C19,R17,Chervil - Fresh,1/12/2026,1:33:00 PM,Not fulfilled,34.7
+O546,C20,R14,"Tarragon - Primerba, Paste",1/21/2026,7:24:00 PM,Not fulfilled,36.3
+O547,C1,R15,Energy Drink Bawls,8/14/2025,6:00:00 PM,completed,21.6
+O548,C2,R16,Yokaline,3/2/2026,9:04:00 AM,Not fulfilled,17.6
+O549,C3,R17,Yokaline,12/22/2025,9:24:00 PM,completed,37.1
+O550,C1,R1,Yokaline,9/7/2025,10:24:00 PM,completed,29.9
+O551,C2,R2,Yokaline,8/8/2025,1:30:00 PM,completed,37.3
+O552,C3,R3,Yokaline,9/19/2025,7:14:00 AM,Not fulfilled,37.3
+O553,C4,R4,Yokaline,4/9/2026,6:06:00 PM,completed,32.6
+O554,C5,R5,Yokaline,7/8/2025,6:02:00 AM,completed,31.4
+O555,C6,R6,Yokaline,5/7/2026,6:42:00 AM,Not fulfilled,27.2
+O556,C7,R7,Yokaline,3/18/2026,9:29:00 AM,Not fulfilled,45.5
+O557,C8,R8,Yokaline,2/1/2026,9:47:00 PM,completed,16.5
+O558,C9,R9,Yokaline,9/18/2025,3:53:00 PM,completed,31.2
+O559,C10,R10,Yokaline,2/5/2026,2:44:00 PM,completed,44.3
+O560,C11,R11,Yokaline,12/13/2025,9:32:00 PM,completed,8.1
+O561,C12,R12,Yokaline,5/30/2026,9:35:00 AM,completed,30.7
+O562,C13,R13,Yokaline,7/18/2025,6:07:00 AM,completed,14.1
+O563,C14,R14,Yokaline,2/21/2026,4:22:00 PM,Not fulfilled,43.1
+O564,C15,R15,Yokaline,1/7/2026,4:52:00 AM,Not fulfilled,15.7
+O565,C16,R16,Yokaline,1/5/2026,11:12:00 PM,Not fulfilled,9.7
+O566,C17,R17,Yokaline,12/2/2025,11:14:00 PM,Not fulfilled,30.3
+O567,C18,R18,Yokaline,6/26/2025,10:59:00 PM,completed,9.1
+O568,C19,R19,Yokaline,5/7/2026,2:44:00 AM,Not fulfilled,42
+O569,C20,R20,Yokaline,7/1/2025,11:32:00 PM,completed,9.4
+O570,C1,R21,Yokaline,4/16/2026,2:02:00 PM,completed,27.3
+O571,C2,R22,Yokaline,7/7/2025,10:18:00 PM,Not fulfilled,18.7
+O572,C3,R23,Yokaline,11/1/2025,2:26:00 AM,completed,15.7
+O573,C4,R24,Yokaline,11/3/2025,11:53:00 PM,Not fulfilled,23.8
+O574,C5,R25,Yokaline,4/1/2026,2:20:00 PM,Not fulfilled,39.3
+O575,C6,R15,Yokaline,3/7/2026,12:11:00 AM,Not fulfilled,12.8
+O576,C7,R16,Yokaline,6/10/2025,9:33:00 AM,Not fulfilled,31.6
+O577,C8,R17,Yokaline,10/17/2025,3:45:00 PM,completed,21.4
+O578,C9,R18,Yokaline,6/24/2025,1:31:00 AM,completed,18.2
+O579,C10,R19,Yokaline,4/9/2026,10:15:00 PM,completed,33.2
+O580,C11,R20,Yokaline,8/2/2025,4:49:00 AM,Not fulfilled,11.8
+O581,C12,R21,Yokaline,8/12/2025,9:41:00 PM,completed,21.2
+O582,C13,R22,Yokaline,7/31/2025,5:58:00 AM,Not fulfilled,10.9
+O583,C14,R23,Yokaline,2/8/2026,9:47:00 AM,Not fulfilled,20.9
+O584,C15,R24,Yokaline,9/28/2025,7:28:00 AM,completed,15.9
+O585,C16,R25,Yokaline,5/13/2026,6:58:00 AM,Not fulfilled,20.1
+O586,C17,R15,Yokaline,7/5/2025,5:03:00 PM,completed,24.9
+O587,C18,R16,Cinnamon Rolls,7/29/2025,7:52:00 AM,completed,29.3
+O588,C19,R17,Yokaline,8/8/2025,10:00:00 AM,Not fulfilled,16.3
+O589,C20,R18,Yokaline,11/11/2025,1:07:00 AM,completed,30.9
+O590,C5,R19,Yokaline,8/9/2025,2:35:00 PM,Not fulfilled,37.7
+O591,C6,R20,Yokaline,1/4/2026,1:50:00 PM,Not fulfilled,23.8
+O592,C7,R21,Yokaline,8/17/2025,1:36:00 PM,completed,7.7
+O593,C8,R22,Yokaline,10/7/2025,11:25:00 AM,Not fulfilled,12.1
+O594,C9,R23,Yokaline,10/30/2025,3:55:00 PM,completed,7.3
+O595,C10,R24,Yokaline,10/13/2025,5:13:00 AM,Not fulfilled,36.4
+O596,C11,R25,Yokaline,11/20/2025,3:36:00 AM,completed,11.2
+O597,C12,R15,Yokaline,9/5/2025,4:30:00 PM,completed,14.8
+O598,C13,R16,Yokaline,7/12/2025,5:55:00 PM,completed,18.4
+O599,C14,R17,Yokaline,2/6/2026,4:44:00 AM,completed,14.4
+O600,C15,R18,Yokaline,10/26/2025,4:24:00 AM,Not fulfilled,29.6
+O601,C16,R19,Yokaline,5/27/2026,12:04:00 PM,completed,33.8
+O602,C17,R20,Yokaline,2/17/2026,9:34:00 AM,Not fulfilled,31.2
+O603,C18,R21,Yokaline,5/7/2026,2:59:00 PM,completed,28.9
+O604,C19,R22,Yokaline,11/29/2025,4:29:00 AM,completed,29.9
+O605,C20,R23,Yokaline,6/30/2025,1:22:00 PM,completed,34.5
+O606,C1,R24,Yokaline,1/31/2026,10:26:00 PM,completed,25.9
+O607,C2,R25,Yokaline,2/2/2026,5:38:00 PM,Not fulfilled,20.4
+O608,C3,R15,Yokaline,4/21/2026,2:05:00 AM,Not fulfilled,20.5
+O609,C4,R16,Yokaline,4/30/2026,1:07:00 AM,completed,34.8
+O610,C5,R17,Cinnamon Rolls,5/21/2026,8:33:00 AM,Not fulfilled,37.6
+O611,C5,R18,Cinnamon Rolls,6/29/2025,10:23:00 AM,completed,25.7
+O612,C6,R19,Cinnamon Rolls,4/23/2026,4:07:00 AM,completed,39
+O613,C7,R20,Cinnamon Rolls,3/16/2026,10:45:00 AM,completed,17.6
+O614,C8,R21,Cinnamon Rolls,5/29/2026,12:30:00 AM,completed,40.3
+O615,C9,R22,Cinnamon Rolls,5/1/2026,1:04:00 AM,completed,15.9
+O616,C10,R23,Cinnamon Rolls,11/19/2025,6:42:00 AM,Not fulfilled,43.7
+O617,C11,R24,Cinnamon Rolls,2/15/2026,1:58:00 AM,completed,31.3
+O618,C12,R25,Cinnamon Rolls,2/6/2026,2:33:00 AM,completed,27.6
+O619,C13,R15,Cinnamon Rolls,12/31/2025,5:32:00 PM,completed,8.9
+O620,C14,R16,Cinnamon Rolls,3/16/2026,4:03:00 PM,Not fulfilled,42.5
+O621,C15,R17,Cinnamon Rolls,7/28/2025,6:38:00 AM,Not fulfilled,19.4
+O622,C16,R18,Cinnamon Rolls,4/12/2026,3:32:00 PM,completed,12.3
+O623,C17,R19,Cinnamon Rolls,6/27/2025,5:57:00 PM,Not fulfilled,36
+O624,C18,R20,Cinnamon Rolls,7/16/2025,2:47:00 AM,Not fulfilled,48.5
+O625,C19,R21,Cinnamon Rolls,10/26/2025,8:24:00 PM,completed,31.7
+O626,C20,R22,Cinnamon Rolls,8/6/2025,7:45:00 AM,Not fulfilled,30.6
+O627,C5,R23,Cinnamon Rolls,11/5/2025,7:32:00 PM,Not fulfilled,41.6
+O628,C6,R24,Cinnamon Rolls,9/22/2025,10:43:00 AM,Not fulfilled,46.4
+O629,C7,R25,Cinnamon Rolls,11/18/2025,3:28:00 PM,Not fulfilled,13.3
+O630,C8,R15,Cinnamon Rolls,3/19/2026,9:44:00 PM,completed,48
+O631,C9,R16,Cinnamon Rolls,7/5/2025,6:16:00 AM,completed,19.1
+O632,C10,R17,Cinnamon Rolls,4/9/2026,9:29:00 PM,Not fulfilled,44.4
+O633,C11,R18,Cinnamon Rolls,3/3/2026,3:46:00 AM,completed,49.9
+O634,C12,R19,Cinnamon Rolls,6/23/2025,6:58:00 AM,Not fulfilled,20
+O635,C13,R20,Cinnamon Rolls,12/14/2025,8:10:00 PM,completed,12.2
+O636,C14,R21,Cinnamon Rolls,9/29/2025,1:32:00 PM,Not fulfilled,40.3
+O637,C15,R22,Cinnamon Rolls,4/28/2026,4:50:00 AM,Not fulfilled,41.1
+O638,C1,R23,Cinnamon Rolls,8/11/2025,8:33:00 PM,completed,42.9
+O639,C2,R24,Cinnamon Rolls,7/17/2025,1:47:00 PM,Not fulfilled,5.8
+O640,C3,R25,Cinnamon Rolls,12/9/2025,12:37:00 AM,completed,10.1
+O641,C1,R16,Cinnamon Rolls,7/14/2025,1:35:00 AM,completed,48.7
+O642,C2,R17,Cinnamon Rolls,8/24/2025,7:14:00 PM,completed,24.8
+O643,C3,R18,Cinnamon Rolls,8/6/2025,7:41:00 AM,Not fulfilled,41.1
+O644,C4,R19,Cinnamon Rolls,6/17/2025,9:24:00 AM,Not fulfilled,37.6
+O645,C5,R20,Cinnamon Rolls,1/19/2026,11:29:00 AM,completed,46.3
+O646,C6,R21,Cinnamon Rolls,3/17/2026,12:45:00 PM,completed,35.3
+O647,C7,R22,Cinnamon Rolls,7/26/2025,1:41:00 PM,Not fulfilled,13.5
+O648,C8,R23,Cinnamon Rolls,8/18/2025,7:29:00 PM,Not fulfilled,21.2
+O649,C9,R24,Cinnamon Rolls,10/13/2025,1:12:00 PM,completed,11.6
+O650,C10,R25,Cinnamon Rolls,5/7/2026,1:01:00 AM,completed,25.1
+O651,C11,R15,Cinnamon Rolls,2/5/2026,11:17:00 AM,completed,45.3
+O652,C12,R16,Cinnamon Rolls,4/13/2026,1:38:00 PM,completed,39.2
+O653,C13,R17,Cinnamon Rolls,11/25/2025,2:12:00 PM,Not fulfilled,8.2
+O654,C14,R18,Cinnamon Rolls,4/21/2026,10:12:00 PM,Not fulfilled,6.4
+O655,C15,R19,Cinnamon Rolls,5/19/2026,1:20:00 PM,Not fulfilled,46.7
+O656,C16,R20,Cinnamon Rolls,1/4/2026,9:18:00 AM,Not fulfilled,5.8
+O657,C17,R21,Cinnamon Rolls,11/7/2025,6:43:00 PM,Not fulfilled,12.6
+O658,C18,R22,Cinnamon Rolls,8/1/2025,1:31:00 PM,Not fulfilled,17.2
+O659,C19,R23,Cinnamon Rolls,5/25/2026,3:30:00 PM,completed,46.3
+O660,C20,R24,Cinnamon Rolls,3/23/2026,5:51:00 AM,Not fulfilled,7.5
+O661,C1,R25,Cinnamon Rolls,5/4/2026,12:11:00 AM,Not fulfilled,38.3
+O662,C2,R15,Cinnamon Rolls,8/20/2025,2:00:00 AM,Not fulfilled,28.2
+O663,C3,R16,Cinnamon Rolls,8/7/2025,3:02:00 AM,completed,40.9
+O664,C4,R17,Cinnamon Rolls,3/6/2026,4:21:00 AM,completed,37.8
+O665,C5,R18,Cinnamon Rolls,5/6/2026,2:45:00 PM,Not fulfilled,23.7
+O666,C6,R19,Cinnamon Rolls,7/4/2025,11:38:00 PM,Not fulfilled,13
+O667,C7,R20,Cinnamon Rolls,10/19/2025,2:18:00 PM,Not fulfilled,10.4
+O668,C8,R21,Cinnamon Rolls,5/28/2026,9:15:00 AM,completed,30.8
+O669,C9,R22,Cinnamon Rolls,6/12/2025,7:35:00 AM,Not fulfilled,27.6
+O670,C10,R23,Cinnamon Rolls,5/28/2026,9:19:00 AM,completed,16.4
+O671,C11,R24,Cinnamon Rolls,8/5/2025,7:02:00 AM,Not fulfilled,35.9
+O672,C12,R25,Cinnamon Rolls,11/14/2025,6:36:00 AM,Not fulfilled,28.7
+O673,C13,R15,Cinnamon Rolls,10/4/2025,1:24:00 AM,completed,35.4
+O674,C14,R16,Cinnamon Rolls,5/6/2026,3:06:00 AM,completed,35.4
+O675,C15,R17,Cinnamon Rolls,1/28/2026,11:07:00 AM,Not fulfilled,20.5
+O676,C16,R18,Cinnamon Rolls,3/10/2026,1:21:00 PM,completed,27
+O677,C17,R19,Cinnamon Rolls,2/22/2026,11:20:00 PM,Not fulfilled,34.6
+O678,C18,R20,Cinnamon Rolls,9/14/2025,12:30:00 AM,Not fulfilled,17.7
+O679,C19,R21,Cinnamon Rolls,7/31/2025,12:02:00 PM,completed,45.9
+O680,C20,R22,Cinnamon Rolls,10/3/2025,8:51:00 AM,Not fulfilled,28.8
+O681,C5,R23,Cinnamon Rolls,7/14/2025,1:42:00 AM,completed,24.9
+O682,C6,R24,Cinnamon Rolls,8/7/2025,3:10:00 AM,Not fulfilled,32.6
+O683,C7,R25,Cinnamon Rolls,7/9/2025,6:13:00 PM,completed,39.6
+O684,C8,R15,Cinnamon Rolls,3/22/2026,8:42:00 AM,completed,13.5
+O685,C9,R16,Cinnamon Rolls,1/27/2026,6:14:00 AM,completed,23.1
+O686,C10,R17,Cinnamon Rolls,2/22/2026,12:59:00 PM,completed,35.7
+O687,C11,R18,Cinnamon Rolls,11/27/2025,10:13:00 PM,Not fulfilled,46.6
+O688,C12,R19,Cinnamon Rolls,12/21/2025,7:42:00 PM,Not fulfilled,16.1
+O689,C13,R20,Cinnamon Rolls,8/3/2025,9:52:00 PM,completed,6.9
+O690,C14,R21,Cinnamon Rolls,3/30/2026,5:58:00 AM,Not fulfilled,49.1
+O691,C15,R22,Cinnamon Rolls,4/8/2026,11:12:00 PM,completed,48.3
+O692,C16,R23,Cinnamon Rolls,8/22/2025,9:42:00 PM,completed,28.5
+O693,C17,R24,Cinnamon Rolls,8/26/2025,12:07:00 AM,Not fulfilled,49.6
+O694,C18,R25,Cinnamon Rolls,12/24/2025,7:20:00 PM,Not fulfilled,22
+O695,C19,R15,Cinnamon Rolls,7/9/2025,5:34:00 PM,Not fulfilled,5.3
+O696,C20,R16,Cinnamon Rolls,3/1/2026,8:06:00 PM,completed,42.5
+O697,C1,R17,Cinnamon Rolls,6/19/2025,6:48:00 PM,completed,9.6
+O698,C2,R18,Cinnamon Rolls,8/7/2025,6:27:00 PM,Not fulfilled,39.4
+O699,C3,R19,Cinnamon Rolls,10/25/2025,1:58:00 AM,completed,30.2
+O700,C4,R20,Cinnamon Rolls,6/3/2025,2:09:00 PM,Not fulfilled,12.7
+O701,C5,R21,Cinnamon Rolls,10/15/2025,12:43:00 AM,completed,10.2
+O702,C5,R22,Cinnamon Rolls,1/4/2026,5:31:00 PM,Not fulfilled,34.3
+O703,C6,R23,Cinnamon Rolls,10/5/2025,1:33:00 AM,completed,45.7
+O704,C7,R24,Cinnamon Rolls,11/8/2025,1:11:00 PM,Not fulfilled,34.6
+O705,C8,R25,Cinnamon Rolls,8/13/2025,12:18:00 PM,Not fulfilled,39.8
+O706,C9,R16,Cinnamon Rolls,1/11/2026,2:09:00 AM,completed,18.4
+O707,C10,R17,Cinnamon Rolls,1/1/2026,2:30:00 AM,Not fulfilled,29.4
+O708,C11,R18,Cinnamon Rolls,12/12/2025,3:04:00 AM,completed,9.5
+O709,C12,R19,Cinnamon Rolls,9/17/2025,11:27:00 AM,Not fulfilled,44.4
+O710,C13,R20,Cinnamon Rolls,1/24/2026,1:48:00 AM,Not fulfilled,20.4
+O711,C14,R21,Cinnamon Rolls,12/24/2025,7:15:00 PM,completed,16.3
+O712,C15,R22,Cinnamon Rolls,1/16/2026,2:20:00 PM,completed,25.2
+O713,C16,R23,Cinnamon Rolls,10/18/2025,7:24:00 PM,completed,41.7
+O714,C17,R24,Cinnamon Rolls,4/2/2026,2:41:00 PM,Not fulfilled,15.1
+O715,C18,R25,Cinnamon Rolls,11/19/2025,12:29:00 AM,completed,49.4
+O716,C19,R15,Cinnamon Rolls,5/17/2026,12:31:00 AM,Not fulfilled,25.6
+O717,C20,R16,Cinnamon Rolls,12/13/2025,3:39:00 AM,completed,27.1
+O718,C5,R17,Cinnamon Rolls,8/19/2025,9:36:00 PM,completed,18.4
+O719,C6,R18,Cinnamon Rolls,4/7/2026,1:04:00 AM,completed,15
+O720,C7,R19,Cinnamon Rolls,2/20/2026,7:41:00 AM,Not fulfilled,17.1
+O721,C8,R20,Cinnamon Rolls,5/19/2026,3:55:00 PM,Not fulfilled,46
+O722,C9,R21,Cinnamon Rolls,12/21/2025,5:12:00 AM,completed,48.9
+O723,C10,R22,Cinnamon Rolls,9/9/2025,5:06:00 PM,Not fulfilled,47.3
+O724,C11,R23,Cinnamon Rolls,2/23/2026,3:29:00 AM,Not fulfilled,33.2
+O725,C12,R24,Cinnamon Rolls,5/9/2026,5:40:00 PM,completed,6
+O726,C13,R25,Cinnamon Rolls,12/23/2025,11:39:00 PM,completed,40.5
+O727,C14,R15,Cinnamon Rolls,12/23/2025,8:07:00 PM,Not fulfilled,44.7
+O728,C15,R16,Cinnamon Rolls,3/26/2026,5:28:00 PM,Not fulfilled,17.5
+O729,C19,R17,Cinnamon Rolls,8/28/2025,8:42:00 AM,Not fulfilled,49.3
+O730,C20,R18,Cinnamon Rolls,7/10/2025,11:47:00 AM,Not fulfilled,32.6
+O731,C5,R19,Cinnamon Rolls,2/7/2026,1:12:00 AM,Not fulfilled,37.8
+O732,C6,R20,Cinnamon Rolls,4/2/2026,7:32:00 AM,completed,18.4
+O733,C7,R21,Cinnamon Rolls,9/26/2025,4:38:00 PM,completed,12.1
+O734,C8,R22,Cinnamon Rolls,5/27/2026,2:30:00 PM,completed,7.9
+O735,C9,R23,Cinnamon Rolls,7/24/2025,6:36:00 AM,completed,6.6
+O736,C10,R24,Cinnamon Rolls,5/28/2026,1:26:00 AM,Not fulfilled,47.6
+O737,C11,R25,Cinnamon Rolls,10/10/2025,7:37:00 PM,completed,23.5
+O738,C12,R15,Cinnamon Rolls,3/7/2026,4:09:00 PM,Not fulfilled,48
+O739,C13,R16,Cinnamon Rolls,2/15/2026,11:39:00 AM,completed,37.3
+O740,C14,R17,Cinnamon Rolls,12/27/2025,9:35:00 PM,Not fulfilled,15.8
+O741,C15,R18,Cinnamon Rolls,8/2/2025,8:07:00 AM,completed,37.8
+O742,C16,R19,Cinnamon Rolls,11/22/2025,3:33:00 PM,completed,11.2
+O743,C17,R20,Cinnamon Rolls,12/26/2025,2:32:00 AM,completed,48.9
+O744,C18,R21,Cinnamon Rolls,10/1/2025,1:52:00 AM,completed,34.4
+O745,C19,R22,Cinnamon Rolls,5/4/2026,4:31:00 AM,completed,23.6
+O746,C20,R23,Cinnamon Rolls,2/4/2026,6:38:00 PM,completed,7.8
+O747,C1,R24,Cinnamon Rolls,9/20/2025,12:59:00 AM,Not fulfilled,45.6
+O748,C2,R25,Cinnamon Rolls,3/25/2026,1:38:00 AM,completed,18.6
+O749,C3,R15,Cinnamon Rolls,5/27/2026,7:22:00 AM,completed,17.4
+O750,C1,R16,Cinnamon Rolls,4/22/2026,12:32:00 AM,Not fulfilled,12.9
+O751,C2,R17,Cinnamon Rolls,2/25/2026,9:39:00 PM,Not fulfilled,9.5
+O752,C3,R18,Cinnamon Rolls,7/22/2025,1:15:00 PM,completed,26.8
+O753,C4,R19,Cinnamon Rolls,9/16/2025,8:01:00 AM,Not fulfilled,20
+O754,C5,R20,Cinnamon Rolls,2/4/2026,10:52:00 PM,Not fulfilled,23.8
+O755,C6,R21,Cinnamon Rolls,9/27/2025,11:00:00 AM,Not fulfilled,39.3
+O756,C7,R22,Cinnamon Rolls,11/10/2025,9:28:00 PM,completed,9.1
+O757,C8,R23,Cinnamon Rolls,9/16/2025,5:04:00 PM,completed,38.2
+O758,C9,R24,Cinnamon Rolls,6/27/2025,11:15:00 PM,Not fulfilled,14.8
+O759,C10,R25,Cinnamon Rolls,8/5/2025,12:53:00 AM,Not fulfilled,44.4
+O760,C11,R15,Cinnamon Rolls,4/5/2026,1:30:00 PM,Not fulfilled,8.9
+O761,C12,R16,Cinnamon Rolls,5/21/2026,1:46:00 AM,Not fulfilled,10.7
+O762,C13,R17,Cinnamon Rolls,10/11/2025,9:39:00 AM,Not fulfilled,5.5
+O763,C14,R18,Cinnamon Rolls,10/21/2025,4:07:00 AM,completed,35.9
+O764,C15,R19,Cinnamon Rolls,12/9/2025,5:27:00 PM,completed,39.3
+O765,C16,R20,Cinnamon Rolls,3/5/2026,12:50:00 PM,Not fulfilled,42.6
+O766,C17,R21,Cinnamon Rolls,5/27/2026,8:24:00 AM,Not fulfilled,36.2
+O767,C18,R22,Cinnamon Rolls,1/16/2026,3:44:00 AM,completed,38.1
+O768,C19,R23,Cinnamon Rolls,8/21/2025,7:34:00 AM,completed,17.2
+O769,C20,R24,Cinnamon Rolls,1/20/2026,5:08:00 AM,Not fulfilled,46.4
+O770,C1,R25,Cinnamon Rolls,11/18/2025,6:53:00 AM,completed,41.8
+O771,C2,R16,Cinnamon Rolls,8/15/2025,4:29:00 AM,completed,5.5
+O772,C3,R17,Cinnamon Rolls,4/30/2026,9:05:00 PM,Not fulfilled,29.3
+O773,C4,R18,Cinnamon Rolls,6/30/2025,12:27:00 AM,Not fulfilled,35.6
+O774,C5,R19,Cinnamon Rolls,11/10/2025,4:45:00 AM,Not fulfilled,38.2
+O775,C6,R20,Cinnamon Rolls,5/23/2026,5:02:00 PM,completed,34.1
+O776,C7,R21,Cinnamon Rolls,7/11/2025,9:59:00 AM,Not fulfilled,7.3
+O777,C8,R22,Cinnamon Rolls,10/12/2025,9:05:00 AM,completed,36
+O778,C9,R23,Cinnamon Rolls,5/14/2026,5:54:00 AM,Not fulfilled,31.8
+O779,C10,R24,Cinnamon Rolls,6/8/2025,9:59:00 AM,completed,16.5
+O780,C11,R25,Cinnamon Rolls,8/17/2025,12:16:00 AM,Not fulfilled,40.8
+O781,C12,R15,Cinnamon Rolls,3/27/2026,8:34:00 AM,Not fulfilled,28
+O782,C13,R16,Cinnamon Rolls,3/8/2026,9:48:00 AM,Not fulfilled,10.5
+O783,C14,R17,Cinnamon Rolls,6/27/2025,5:17:00 PM,Not fulfilled,42.3
+O784,C15,R18,Cinnamon Rolls,8/14/2025,5:59:00 AM,completed,36.8
+O785,C16,R19,Cinnamon Rolls,4/13/2026,7:38:00 PM,completed,13.8
+O786,C17,R20,Cinnamon Rolls,4/3/2026,9:19:00 AM,completed,35.8
+O787,C18,R21,Cinnamon Rolls,11/8/2025,8:57:00 PM,completed,13.9
+O788,C19,R22,Cinnamon Rolls,9/4/2025,12:26:00 AM,completed,36.3
+O789,C20,R23,Cinnamon Rolls,11/15/2025,7:35:00 PM,Not fulfilled,5
+O790,C5,R24,Cinnamon Rolls,1/28/2026,12:27:00 AM,Not fulfilled,23.5
+O791,C6,R25,Cinnamon Rolls,9/19/2025,7:17:00 AM,Not fulfilled,25.6
+O792,C7,R15,Cinnamon Rolls,8/17/2025,9:39:00 PM,Not fulfilled,29.7
+O793,C8,R16,Cinnamon Rolls,2/13/2026,6:03:00 AM,Not fulfilled,50
+O794,C9,R17,Cinnamon Rolls,10/25/2025,6:44:00 AM,completed,45.5
+O795,C10,R18,Cinnamon Rolls,9/3/2025,2:42:00 AM,Not fulfilled,49.9
+O796,C11,R19,Cinnamon Rolls,7/23/2025,7:26:00 PM,Not fulfilled,7.3
+O797,C12,R20,Cinnamon Rolls,2/10/2026,2:36:00 PM,Not fulfilled,37.5
+O798,C13,R21,Cinnamon Rolls,6/4/2025,10:57:00 AM,Not fulfilled,14.4
+O799,C14,R22,Cinnamon Rolls,12/24/2025,3:46:00 PM,completed,13.7
+O800,C15,R23,Cinnamon Rolls,7/3/2025,4:35:00 AM,completed,46.4
+O801,C16,R24,Cinnamon Rolls,10/24/2025,8:15:00 AM,completed,11.4
+O802,C17,R25,Cinnamon Rolls,12/8/2025,10:53:00 PM,completed,31.9
+O803,C18,R15,Cinnamon Rolls,12/20/2025,5:13:00 AM,completed,12.6
+O804,C19,R16,Cinnamon Rolls,10/9/2025,7:39:00 PM,Not fulfilled,18.9
+O805,C20,R17,Cinnamon Rolls,7/9/2025,4:56:00 PM,Not fulfilled,15.5
+O806,C1,R18,Cinnamon Rolls,6/17/2025,4:16:00 PM,Not fulfilled,16.7
+O807,C2,R19,Cinnamon Rolls,10/12/2025,4:45:00 AM,Not fulfilled,34.1
+O808,C3,R20,Cinnamon Rolls,5/13/2026,2:51:00 AM,Not fulfilled,12.6
+O809,C4,R21,Cinnamon Rolls,10/20/2025,9:58:00 PM,completed,38.7
+O810,C5,R22,Cinnamon Rolls,10/20/2025,8:09:00 PM,completed,47.9
+O811,C5,R23,Cinnamon Rolls,12/28/2025,2:34:00 AM,completed,28.6
+O812,C6,R24,Cinnamon Rolls,11/13/2025,11:41:00 AM,Not fulfilled,16.8
+O813,C7,R25,Cinnamon Rolls,12/7/2025,3:16:00 PM,completed,16.7
+O814,C8,R15,Cinnamon Rolls,6/27/2025,1:13:00 AM,completed,31.3
+O815,C9,R16,Cinnamon Rolls,12/21/2025,8:11:00 PM,completed,18.9
+O816,C10,R17,Cinnamon Rolls,3/7/2026,7:43:00 AM,completed,19.5
+O817,C11,R18,Cinnamon Rolls,7/28/2025,3:55:00 AM,completed,33.9
+O818,C12,R19,Cinnamon Rolls,11/20/2025,12:37:00 PM,completed,47.2
+O819,C13,R20,Cinnamon Rolls,2/20/2026,6:38:00 PM,Not fulfilled,42.2
+O820,C14,R21,Cinnamon Rolls,10/21/2025,5:21:00 AM,completed,37.6
+O821,C15,R22,Cinnamon Rolls,7/31/2025,2:27:00 PM,completed,34.5
+O822,C16,R23,Cinnamon Rolls,8/13/2025,4:59:00 AM,completed,19
+O823,C17,R24,Cinnamon Rolls,9/8/2025,5:04:00 PM,Not fulfilled,36.1
+O824,C18,R25,Cinnamon Rolls,3/20/2026,3:46:00 PM,completed,14.9
+O825,C19,R15,Cinnamon Rolls,4/14/2026,3:46:00 AM,completed,44.9
+O826,C20,R16,Cinnamon Rolls,10/15/2025,4:12:00 PM,Not fulfilled,27.6
+O827,C5,R17,Cinnamon Rolls,11/22/2025,4:00:00 PM,completed,36.6
+O828,C6,R18,Cinnamon Rolls,12/13/2025,8:58:00 PM,Not fulfilled,25.4
+O829,C7,R19,Cinnamon Rolls,2/5/2026,8:25:00 PM,completed,37.4
+O830,C8,R20,Cinnamon Rolls,2/19/2026,4:18:00 AM,completed,39.2
+O831,C9,R21,Cinnamon Rolls,5/26/2026,5:07:00 PM,completed,45.6
+O832,C10,R22,Cinnamon Rolls,3/23/2026,6:12:00 AM,Not fulfilled,41.7
+O833,C11,R23,Cinnamon Rolls,8/19/2025,2:21:00 AM,completed,17.3
+O834,C12,R24,Cinnamon Rolls,11/13/2025,10:08:00 PM,completed,9.8
+O835,C13,R25,Cinnamon Rolls,8/9/2025,11:01:00 PM,completed,7.4
+O836,C14,R16,Cinnamon Rolls,8/1/2025,5:59:00 AM,Not fulfilled,42
+O837,C15,R17,Cinnamon Rolls,11/18/2025,5:45:00 AM,completed,32.2
+O838,C19,R18,Cinnamon Rolls,3/7/2026,9:28:00 AM,Not fulfilled,21.7
+O839,C20,R19,Cinnamon Rolls,1/12/2026,2:42:00 AM,completed,31.9
+O840,C5,R20,Cinnamon Rolls,11/12/2025,9:23:00 PM,Not fulfilled,29.2
+O841,C6,R21,Cinnamon Rolls,11/2/2025,3:17:00 AM,completed,44
+O842,C7,R22,Cinnamon Rolls,1/11/2026,1:57:00 PM,completed,12.7
+O843,C8,R23,Cinnamon Rolls,5/19/2026,4:44:00 PM,Not fulfilled,38.6
+O844,C9,R24,Cinnamon Rolls,10/23/2025,5:43:00 AM,Not fulfilled,9.9
+O845,C10,R25,Cinnamon Rolls,11/11/2025,11:47:00 PM,Not fulfilled,28.7
+O846,C11,R15,Cinnamon Rolls,7/26/2025,8:04:00 AM,Not fulfilled,43.6
+O847,C12,R16,Cinnamon Rolls,4/16/2026,8:21:00 AM,completed,24.6
+O848,C13,R17,Cinnamon Rolls,8/6/2025,10:04:00 PM,Not fulfilled,17.5
+O849,C14,R18,Cinnamon Rolls,7/7/2025,8:57:00 PM,completed,14.3
+O850,C15,R19,Cinnamon Rolls,12/24/2025,11:33:00 AM,completed,5
+O851,C16,R20,Cinnamon Rolls,6/8/2025,12:26:00 PM,completed,30.9
+O852,C17,R21,Cinnamon Rolls,8/1/2025,4:36:00 AM,completed,13.6
+O853,C18,R22,Cinnamon Rolls,12/15/2025,11:17:00 AM,completed,34.3
+O854,C19,R23,Cinnamon Rolls,7/25/2025,1:05:00 PM,completed,21.4
+O855,C20,R24,Cinnamon Rolls,4/14/2026,11:48:00 PM,Not fulfilled,32.1
+O856,C1,R25,Cinnamon Rolls,4/23/2026,9:05:00 AM,completed,13.3
+O857,C2,R15,Cinnamon Rolls,9/14/2025,5:09:00 PM,Not fulfilled,31.6
+O858,C3,R16,Cinnamon Rolls,12/26/2025,12:21:00 AM,completed,33.5
+O859,C1,R17,Cinnamon Rolls,7/7/2025,10:24:00 AM,completed,17.6
+O860,C2,R18,Cinnamon Rolls,6/12/2025,9:01:00 AM,Not fulfilled,29.7
+O861,C3,R19,Cinnamon Rolls,4/26/2026,3:55:00 AM,Not fulfilled,27.7
+O862,C4,R20,Cinnamon Rolls,4/2/2026,11:40:00 PM,completed,26.9
+O863,C5,R21,Cinnamon Rolls,1/7/2026,3:07:00 AM,Not fulfilled,14.6
+O864,C6,R22,Cinnamon Rolls,12/2/2025,2:16:00 PM,Not fulfilled,9.7
+O865,C7,R23,Cinnamon Rolls,2/10/2026,2:51:00 AM,Not fulfilled,24.5
+O866,C8,R24,Cinnamon Rolls,12/31/2025,4:17:00 AM,Not fulfilled,7.9
+O867,C9,R25,Cinnamon Rolls,4/19/2026,9:15:00 AM,completed,36.3
+O868,C10,R15,Cinnamon Rolls,9/24/2025,10:05:00 PM,completed,47.1
+O869,C11,R16,Cinnamon Rolls,7/9/2025,3:03:00 PM,completed,34.1
+O870,C12,R17,Cinnamon Rolls,9/27/2025,5:27:00 PM,completed,42.7
+O871,C13,R18,Cinnamon Rolls,7/3/2025,7:03:00 PM,Not fulfilled,43
+O872,C14,R19,Cinnamon Rolls,4/27/2026,4:43:00 AM,completed,31.2
+O873,C15,R20,Cinnamon Rolls,8/21/2025,5:32:00 AM,Not fulfilled,48.9
+O874,C16,R21,Cinnamon Rolls,8/4/2025,9:16:00 AM,Not fulfilled,26.2
+O875,C17,R22,"Lamb - Shoulder, Boneless",6/30/2025,12:21:00 PM,completed,27
+O876,C18,R23,Coffee Swiss Choc Almond,7/14/2025,8:09:00 PM,completed,44.3
+O877,C19,R24,Coffee Swiss Choc Almond,4/10/2026,8:49:00 PM,completed,5.7
+O878,C20,R25,Coffee Swiss Choc Almond,12/8/2025,5:04:00 AM,completed,31.1
+O879,C1,R15,Coffee Swiss Choc Almond,5/23/2026,7:04:00 AM,completed,20.8
+O880,C2,R16,Coffee Swiss Choc Almond,1/8/2026,12:40:00 PM,Not fulfilled,39.3
+O881,C3,R17,Coffee Swiss Choc Almond,9/23/2025,1:52:00 PM,completed,9.6
+O882,C4,R18,Coffee Swiss Choc Almond,3/21/2026,1:34:00 AM,completed,46.6
+O883,C5,R19,Coffee Swiss Choc Almond,3/26/2026,1:36:00 AM,completed,25.8
+O884,C6,R20,Coffee Swiss Choc Almond,10/6/2025,12:29:00 PM,Not fulfilled,14.8
+O885,C7,R21,Coffee Swiss Choc Almond,2/11/2026,4:35:00 AM,Not fulfilled,20.1
+O886,C8,R22,Coffee Swiss Choc Almond,10/19/2025,4:29:00 AM,Not fulfilled,32
+O887,C9,R23,Coffee Swiss Choc Almond,5/17/2026,9:01:00 PM,Not fulfilled,13.1
+O888,C10,R24,Coffee Swiss Choc Almond,6/24/2025,10:47:00 PM,Not fulfilled,43.4
+O889,C11,R25,Coffee Swiss Choc Almond,8/17/2025,8:39:00 PM,Not fulfilled,8.5
+O890,C12,R15,Coffee Swiss Choc Almond,1/23/2026,10:56:00 AM,completed,45.2
+O891,C13,R16,Coffee Swiss Choc Almond,5/29/2026,7:41:00 PM,completed,22
+O892,C14,R17,Coffee Swiss Choc Almond,1/7/2026,11:37:00 PM,completed,5
+O893,C15,R18,Coffee Swiss Choc Almond,6/26/2025,1:36:00 AM,Not fulfilled,29.3
+O894,C16,R19,Coffee Swiss Choc Almond,7/22/2025,5:08:00 AM,completed,22.3
+O895,C17,R20,Coffee Swiss Choc Almond,12/9/2025,9:49:00 PM,Not fulfilled,34.6
+O896,C18,R21,Coffee Swiss Choc Almond,10/22/2025,5:29:00 AM,completed,25.3
+O897,C19,R22,Coffee Swiss Choc Almond,6/2/2025,11:26:00 PM,completed,25.8
+O898,C20,R23,Coffee Swiss Choc Almond,3/3/2026,12:16:00 AM,Not fulfilled,11.8
+O899,C5,R24,Coffee Swiss Choc Almond,10/25/2025,12:08:00 AM,Not fulfilled,30.7
+O900,C6,R25,Coffee Swiss Choc Almond,1/27/2026,9:26:00 AM,Not fulfilled,34.1
+O901,C7,R16,Coffee Swiss Choc Almond,2/16/2026,8:15:00 AM,completed,41.6
+O902,C8,R17,Coffee Swiss Choc Almond,7/25/2025,2:56:00 AM,completed,24.9
+O903,C9,R18,Coffee Swiss Choc Almond,6/17/2025,4:29:00 AM,Not fulfilled,39.2
+O904,C10,R19,Coffee Swiss Choc Almond,12/6/2025,5:06:00 AM,completed,38.4
+O905,C11,R20,Coffee Swiss Choc Almond,12/19/2025,11:32:00 PM,completed,49.6
+O906,C12,R21,Coffee Swiss Choc Almond,9/28/2025,3:29:00 PM,completed,9.8
+O907,C13,R22,Coffee Swiss Choc Almond,4/14/2026,7:52:00 AM,Not fulfilled,25.4
+O908,C14,R23,Coffee Swiss Choc Almond,2/24/2026,6:10:00 AM,Not fulfilled,32.4
+O909,C15,R24,Coffee Swiss Choc Almond,9/7/2025,3:48:00 PM,Not fulfilled,22.4
+O910,C16,R25,Coffee Swiss Choc Almond,8/6/2025,9:26:00 PM,Not fulfilled,43.9
+O911,C17,R15,Coffee Swiss Choc Almond,8/26/2025,4:47:00 AM,Not fulfilled,47.2
+O912,C18,R16,Coffee Swiss Choc Almond,6/20/2025,5:54:00 AM,completed,18.3
+O913,C19,R17,Coffee Swiss Choc Almond,10/30/2025,7:49:00 PM,Not fulfilled,40.4
+O914,C20,R18,Coffee Swiss Choc Almond,1/10/2026,12:14:00 AM,Not fulfilled,16.5
+O915,C1,R19,Coffee Swiss Choc Almond,7/29/2025,1:33:00 PM,completed,23.8
+O916,C2,R20,Coffee Swiss Choc Almond,6/4/2025,3:08:00 AM,Not fulfilled,10.1
+O917,C3,R21,Coffee Swiss Choc Almond,2/28/2026,2:20:00 PM,Not fulfilled,45.7
+O918,C4,R22,Coffee Swiss Choc Almond,2/19/2026,12:48:00 AM,completed,6
+O919,C5,R23,Coffee Swiss Choc Almond,10/10/2025,2:28:00 AM,Not fulfilled,48.1
+O920,C5,R24,Coffee Swiss Choc Almond,12/29/2025,6:20:00 AM,Not fulfilled,27.5
+O921,C6,R25,Coffee Swiss Choc Almond,12/20/2025,3:19:00 AM,Not fulfilled,42.5
+O922,C7,R15,Coffee Swiss Choc Almond,7/26/2025,7:01:00 PM,Not fulfilled,30.1
+O923,C8,R16,Dikon,7/16/2025,2:58:00 PM,Not fulfilled,19.7
+O924,C9,R17,Dikon,12/23/2025,9:15:00 AM,Not fulfilled,26.7
+O925,C10,R18,Dikon,3/11/2026,7:59:00 PM,completed,43.3
+O926,C11,R19,Dikon,9/25/2025,9:00:00 PM,completed,8.7
+O927,C12,R20,Dikon,6/16/2025,2:11:00 PM,Not fulfilled,42.8
+O928,C13,R21,Dikon,10/9/2025,11:12:00 PM,completed,16
+O929,C14,R22,Dikon,1/25/2026,5:46:00 AM,Not fulfilled,9.7
+O930,C15,R23,Dikon,4/21/2026,12:57:00 AM,Not fulfilled,9.9
+O931,C16,R24,Dikon,9/20/2025,10:06:00 AM,completed,48.5
+O932,C17,R25,Dikon,7/2/2025,2:32:00 AM,completed,44.9
+O933,C18,R15,Dikon,8/14/2025,7:10:00 PM,Not fulfilled,23.1
+O934,C19,R16,Dikon,6/24/2025,9:27:00 AM,Not fulfilled,22
+O935,C20,R17,Dikon,7/7/2025,3:37:00 AM,Not fulfilled,48.1
+O936,C5,R18,Dikon,8/13/2025,7:12:00 AM,completed,33.9
+O937,C6,R19,Coffee Swiss Choc Almond,9/25/2025,10:57:00 AM,Not fulfilled,10.5
+O938,C7,R20,Coffee Swiss Choc Almond,6/19/2025,11:44:00 AM,Not fulfilled,29.6
+O939,C8,R21,Coffee Swiss Choc Almond,5/21/2026,5:24:00 AM,completed,48.6
+O940,C9,R22,Coffee Swiss Choc Almond,8/3/2025,12:12:00 PM,Not fulfilled,46.6
+O941,C10,R23,Crab Brie In Phyllo,4/24/2026,5:59:00 AM,completed,25.8
+O942,C11,R24,Crab Brie In Phyllo,3/20/2026,7:30:00 AM,completed,49.5
+O943,C12,R25,Crab Brie In Phyllo,5/8/2026,1:10:00 AM,completed,40.8
+O944,C13,R15,Crab Brie In Phyllo,8/7/2025,12:52:00 PM,completed,39.6
+O945,C14,R16,Crab Brie In Phyllo,9/14/2025,6:08:00 PM,Not fulfilled,37.4
+O946,C15,R17,Crab Brie In Phyllo,9/11/2025,4:03:00 AM,completed,13.9
+O947,C18,R18,Crab Brie In Phyllo,3/22/2026,1:15:00 AM,Not fulfilled,30.4
+O948,C19,R19,Crab Brie In Phyllo,2/13/2026,12:50:00 AM,Not fulfilled,11.9
+O949,C20,R20,Crab Brie In Phyllo,12/12/2025,5:22:00 AM,completed,16.4
+O950,C1,R21,Crab Brie In Phyllo,9/14/2025,9:43:00 AM,Not fulfilled,28.5
+O951,C2,R22,Crab Brie In Phyllo,12/4/2025,10:57:00 PM,Not fulfilled,20.6
+O952,C3,R23,Crab Brie In Phyllo,1/4/2026,9:38:00 PM,completed,35.9
+O953,C4,R24,Crab Brie In Phyllo,12/29/2025,3:16:00 PM,completed,9.2
+O954,C5,R25,V8 Pet,10/5/2025,12:49:00 PM,Not fulfilled,12.6
+O955,C5,R15,V8 Pet,3/24/2026,3:23:00 AM,completed,17.7
+O956,C6,R16,V8 Pet,12/1/2025,12:22:00 AM,completed,24
+O957,C7,R17,V8 Pet,7/1/2025,7:29:00 PM,Not fulfilled,43.9
+O958,C8,R18,V8 Pet,3/7/2026,11:42:00 AM,Not fulfilled,17.9
+O959,C9,R19,V8 Pet,1/18/2026,10:21:00 AM,Not fulfilled,44.2
+O960,C10,R20,V8 Pet,9/19/2025,3:48:00 PM,Not fulfilled,23.9
+O961,C11,R21,V8 Pet,8/6/2025,6:32:00 AM,Not fulfilled,24.7
+O962,C12,R22,V8 Pet,3/14/2026,7:56:00 PM,Not fulfilled,41
+O963,C13,R23,V8 Pet,9/11/2025,8:03:00 AM,Not fulfilled,36.1
+O964,C14,R24,V8 Pet,3/16/2026,1:19:00 PM,Not fulfilled,25.1
+O965,C15,R25,V8 Pet,9/30/2025,5:53:00 PM,Not fulfilled,6.7
+O966,C16,R16,V8 Pet,4/16/2026,4:09:00 AM,completed,42.3
+O967,C17,R17,V8 Pet,9/27/2025,12:36:00 PM,completed,39.4
+O968,C18,R18,V8 Pet,11/25/2025,8:33:00 AM,Not fulfilled,45.6
+O969,C19,R19,V8 Pet,6/4/2025,8:20:00 PM,completed,27
+O970,C20,R20,V8 Pet,9/23/2025,10:22:00 PM,completed,35.7
+O971,C5,R21,V8 Pet,2/5/2026,8:01:00 AM,Not fulfilled,11.7
+O972,C6,R22,V8 Pet,3/23/2026,11:07:00 PM,completed,22.3
+O973,C7,R23,V8 Pet,3/16/2026,11:54:00 PM,Not fulfilled,47.8
+O974,C8,R24,V8 Pet,12/3/2025,6:10:00 PM,Not fulfilled,19.7
+O975,C9,R25,V8 Pet,3/14/2026,5:28:00 PM,Not fulfilled,30.3
+O976,C10,R15,V8 Pet,11/15/2025,2:40:00 AM,completed,42.5
+O977,C11,R16,V8 Pet,12/27/2025,6:40:00 AM,Not fulfilled,14.8
+O978,C12,R17,V8 Pet,2/23/2026,3:59:00 AM,completed,26.6
+O979,C13,R18,V8 Pet,7/22/2025,6:01:00 AM,completed,26.9
+O980,C14,R19,V8 Pet,12/31/2025,5:02:00 AM,Not fulfilled,39.1
+O981,C18,R20,V8 Pet,8/3/2025,3:38:00 PM,Not fulfilled,16.8
+O982,C19,R21,V8 Pet,8/7/2025,5:22:00 PM,completed,39.6
+O983,C20,R22,V8 Pet,11/19/2025,6:45:00 AM,Not fulfilled,40.1
+O984,C1,R23,V8 Pet,7/2/2025,6:30:00 PM,completed,20.8
+O985,C2,R24,V8 Pet,2/4/2026,6:33:00 AM,Not fulfilled,10.1
+O986,C3,R25,V8 Pet,6/10/2025,8:13:00 AM,Not fulfilled,37.2
+O987,C4,R15,V8 Pet,4/23/2026,7:34:00 AM,completed,32.4
+O988,C5,R16,V8 Pet,5/18/2026,9:06:00 AM,completed,9.7
+O989,C5,R17,V8 Pet,6/20/2025,6:30:00 PM,Not fulfilled,6.7
+O990,C6,R18,V8 Pet,2/17/2026,6:46:00 PM,completed,27.3
+O991,C7,R19,V8 Pet,12/5/2025,11:36:00 PM,completed,5.2
+O992,C8,R20,V8 Pet,12/12/2025,1:45:00 PM,completed,33
+O993,C9,R21,V8 Pet,9/29/2025,9:36:00 AM,Not fulfilled,28.4
+O994,C10,R22,V8 Pet,8/6/2025,3:47:00 PM,Not fulfilled,9.9
+O995,C11,R23,V8 Pet,7/20/2025,8:53:00 PM,completed,39.7
+O996,C12,R24,V8 Pet,10/19/2025,10:05:00 AM,completed,11.9
+O997,C13,R25,V8 Pet,12/18/2025,4:19:00 AM,Not fulfilled,44.6
+O998,C14,R15,V8 Pet,7/10/2025,12:25:00 AM,Not fulfilled,21.2
+O999,C15,R16,V8 Pet,5/20/2026,5:06:00 PM,Not fulfilled,46.8
+O1000,C16,R17,V8 Pet,8/8/2025,2:01:00 AM,Not fulfilled,9.4
