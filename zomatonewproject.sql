@@ -257,20 +257,34 @@ from ctee2
 --  Compare to the AOV, IF a customer's total spending exceed the aov label them as 'gold', otherwise 'silver'
 --  Write a SQl Query to determine each segment's total number of orders and total revenue
 
-WITH cte1 AS(
-SELECT c.customer_id,c.customer_name,total_amount,SUM(total_amount) AS totalspentamt , AVG(total_amount) as avgspent,COUNT(total_amount) AS totalorders
-FROM customers c
-JOIN orders o 
-ON c.customer_id=o.customer_id
-GROUP BY 1,2,3),
-cte2 AS(
-SELECT *,CASE WHEN avgspent>(SELECT AVG(total_amount) from orders) THEN 'GOLD' ELSE 'SILVER' END AS labled
-from cte1
-)
-SELECT labled,SUM(total_amount),count(total_amount)
-FROM 
-cte2
-GROUP BY 1
+WITH customer_spending AS
+		(
+		    SELECT
+		        c.customer_id, c.customer_name, SUM(o.total_amount) AS total_spending
+		    FROM customers c
+		    LEFT JOIN orders o ON c.customer_id = o.customer_id
+		    GROUP BY c.customer_id, c.customer_name
+		),
+		customer_segment AS
+		(
+		    SELECT
+		        customer_id, customer_name, total_spending,
+		        CASE
+		            WHEN total_spending > (SELECT AVG(total_spending) FROM customer_spending) --total_spend/total_customers
+		            THEN 'Gold'
+		            ELSE 'Silver'
+		        END AS segment
+		    FROM customer_spending
+		)
+		SELECT
+		    cs.segment, COUNT(o.order_id) AS total_orders, SUM(o.total_amount) AS total_revenue
+		FROM customer_segment cs
+		LEFT JOIN orders o
+		ON cs.customer_id = o.customer_id
+		GROUP BY
+		    cs.segment
+		ORDER BY
+		    total_revenue DESC;
 
 OR
 
