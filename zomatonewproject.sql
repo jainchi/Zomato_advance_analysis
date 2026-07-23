@@ -305,11 +305,7 @@ GROUP BY 1
 
 /*
 🏆 Which one is correct?
-According to the project prompt: "Segment customers into 'Gold' or 'Silver' groups based on their spending... 
-IF a customer's avg spending exceed the aov label them as gold."
-
-Because the business requirement wants to segment the actual human customers rather than individual transactions, 
-2nd query structure is the logically correct approach.My second query accurately identifies who my high-value users are as whole individuals. 
+Ans: 1st one
 */
 
 
