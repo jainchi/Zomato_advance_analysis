@@ -87,12 +87,26 @@ LIMIT 3
 
 -- Q3 Average order value for high-volume customers
 
+select sum(volume)/count(*) as aov from(
+	select c.customer_id,sum(total_amount) as volume from orders o
+	join customers c
+	on o.customer_id=c.customer_id
+	group by 1
+	having sum(total_amount)>1100
+)
+	
+or
 
-SELECT c.customer_id,AVG(total_amount) AS avgpurchase FROM customers c
-JOIN orders o
-ON c.customer_id=o.customer_id
-GROUP BY 1
-HAVING SUM(total_amount)>1500
+SELECT count( * ),SUM(o.total_amount) * 1.0 / COUNT(*) AS aov
+FROM orders o
+JOIN customers c ON o.customer_id = c.customer_id
+WHERE c.customer_id IN (
+    SELECT customer_id
+    FROM orders
+    GROUP BY customer_id
+    HAVING SUM(total_amount) > 1100
+);
+
 
 -- Q.4 High value customers (spending over 1600)
 SELECT c.customer_id,SUM(total_amount) AS totalpurchase FROM customers c
@@ -103,14 +117,14 @@ HAVING SUM(total_amount)>1600
 
 
 -- Q.5 orders without delivery
-SELECT  restaurant_name, city,count(delivery_status) as totalundelivered 
-FROM orders o
-JOIN deliveries d
-ON o.order_id=d.order_id
-JOIN restaurants r
-ON r.restaurant_id=o.restaurant_id
-WHERE delivery_status ='notdelivered'
-GROUP BY 1,2
+select restaurant_id,count(*) from orders o
+left join deliveries d
+on o.order_id=d.order_id
+where delivery_id is null
+or 
+delivery_status='notdelivered'
+group by 1
+	
 
 -- Q.6 Restaurant Revenue Ranking
 -- Rank by total revenue from last year,including their name, total revenue, and rank within its city
@@ -145,20 +159,19 @@ FROM dishcte
 -- Q.8 Customer Churn
 -- FIND CUSTOMERS WHO HAVEN'T PLACED AN ORDER IN 2026 BUT DID IN 2025
 
-SELECT c.customer_id, c.customer_name 
-FROM customers c
-WHERE c.customer_id IN (
-    -- Step 1: Get all customers who ordered in 2025
-    SELECT DISTINCT customer_id 
-    FROM orders 
-    WHERE EXTRACT(YEAR FROM order_date) = 2025
-)
-AND c.customer_id NOT IN (
-    -- Step 2: Exclude anyone who ordered in 2026
-    SELECT DISTINCT customer_id 
-    FROM orders 
-    WHERE EXTRACT(YEAR FROM order_date) = 2026
-);
+select distinct c.customer_id  from customers c
+join orders o 
+on c.customer_id=o.customer_id
+where extract(year from order_date)=2025
+and c.customer_id not in
+		
+		(
+		select c.customer_id from customers c
+		left join orders o 
+		on c.customer_id=o.customer_id
+		where extract(year from order_date)=2024
+		)
+
 
 -- Q.9 Cancellation Rate Comparison
 -- Calculate and compare the order cancellation rate for each restaurant between the current year and the previous year
@@ -174,7 +187,6 @@ cancellationcte1 AS(
 SELECT restaurant_id,totalorders,totalcancelled,100.0*(totalcancelled/totalorders) AS cancellationrate
 FROM cte1)
 ,
-
 cte2 AS(
 SELECT o.restaurant_id,count(o.order_id) AS totalorders,
 COUNT(CASE WHEN d.delivery_status ='notdelivered' THEN 1  END) AS totalcancelled
